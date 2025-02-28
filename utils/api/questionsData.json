@@ -1,0 +1,2540 @@
+{
+    "responseDuration": 30000,
+    "mcq": {
+        "body": {
+            "type": "MCQ",
+            "bank": 1,
+            "title": "TEST MCQ Questions",
+            "description": "<p>TEST MCQ Questions</p>",
+            "text": "<p>TEST MCQ Questions</p>",
+            "image": [],
+            "typea": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option A</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option B</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option C</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>Option D</p>",
+                    "checked": "checked"
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option E</p>",
+                    "checked": ""
+                }
+            ]
+        },
+        "header": {
+            "accept": "application/json",
+            "webreferer": "https://sandbox-staging.assessappglobal.com.au/"
+        },
+        "editmcqbody": {
+            "type": "MCQ",
+            "bank": 1,
+            "title": "mcq question test edit1",
+            "description": "<p>question aim edit</p>",
+            "text": "<p>question test edit</p>",
+            "image": [],
+            "mandatorytags": "[]",
+            "typea": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": 1,
+                    "markscontrol": "hide",
+                    "questiontext": "<p>option-a edit</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "<p>Option-B edit</p>",
+                    "checked": "checked"
+                }
+            ],
+            "tags": []
+        },
+        "approvequestion": {
+            "workflow": [
+                {
+                    "id": "2",
+                    "name": "No Workflow"
+                }
+            ],
+            "question_id": "{{MCQ_QuestionID}}",
+            "transition": "Approve",
+            "Authorization": "{\"Practice Bank\":{\"Question\":[{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Archive\":\"TRUE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"View\":\"TRUE\"},{\"Checkout\":\"TRUE\"}],\"Images\":[{\"Upload\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"\":\"TRUE\"},{\"View\":\"TRUE\"}],\"Exam\":[{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview (WEB)\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"\":\"TRUE\"},{\"View\":\"TRUE\"},{\"Checkout\":\"TRUE\"},{\"\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Archive\":\"TRUE\"},{\"Preview (PDF)\":\"TRUE\"}],\"Blueprint\":[{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Archive\":\"TRUE\"},{\"Unlock\":\"FALSE\"},{\"View\":\"TRUE\"}],\"Reports\":[{\"View\":\"TRUE\"},{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Archive\":\"FALSE\"}],\"Registration\":[{\"Live Monitor\":\"TRUE\"},{\"View\":\"TRUE\"},{\"Adduser\":\"TRUE\"},{\"Updateuser\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Generate Temp ID\":\"TRUE\"},{\"Assign Venue And Booking Status\":\"TRUE\"},{\"Markers Report Download\":\"TRUE\"},{\"Bulk Assign Invigilator\":\"TRUE\"},{\"Manage Special Consideration\":\"TRUE\"},{\"Manage Booking\":\"TRUE\"},{\"Marker View Next\":\"TRUE\"},{\"Marking\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Download\":\"TRUE\"},{\"\":\"TRUE\"},{\"\":\"TRUE\"},{\"\":\"TRUE\"},{\"Marker View Prev\":\"TRUE\"},{\"Live Monitor Exam Action\":\"TRUE\"},{\"Live Monitor Questions\":\"TRUE\"},{\"Live Monitor Timer\":\"TRUE\"},{\"Download Exam\":\"TRUE\"}],\"Gradebook\":[{\"View\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Download\":\"TRUE\"}]},\"Elumina - Test Bank\":{\"Question\":[{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Archive\":\"TRUE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"\":\"FALSE\"},{\"View\":\"TRUE\"},{\"Checkout\":\"TRUE\"}],\"Images\":[{\"Upload\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"\":\"TRUE\"},{\"View\":\"TRUE\"}],\"Exam\":[{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview (WEB)\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"\":\"TRUE\"},{\"View\":\"TRUE\"},{\"Checkout\":\"TRUE\"},{\"\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Archive\":\"TRUE\"},{\"Preview (PDF)\":\"TRUE\"}],\"Blueprint\":[{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Archive\":\"TRUE\"},{\"Unlock\":\"FALSE\"},{\"View\":\"TRUE\"}],\"Reports\":[{\"View\":\"TRUE\"},{\"Create\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Preview\":\"TRUE\"},{\"Duplicate\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Print\":\"TRUE\"},{\"Export\":\"TRUE\"},{\"Archive\":\"FALSE\"}],\"Registration\":[{\"Live Monitor\":\"TRUE\"},{\"View\":\"TRUE\"},{\"Adduser\":\"TRUE\"},{\"Updateuser\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Generate Temp ID\":\"TRUE\"},{\"Assign Venue And Booking Status\":\"TRUE\"},{\"Markers Report Download\":\"TRUE\"},{\"Bulk Assign Invigilator\":\"TRUE\"},{\"Manage Special Consideration\":\"TRUE\"},{\"Manage Booking\":\"TRUE\"},{\"Marker View Next\":\"TRUE\"},{\"Marking\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Delete\":\"TRUE\"},{\"Download\":\"TRUE\"},{\"\":\"TRUE\"},{\"\":\"TRUE\"},{\"\":\"TRUE\"},{\"Marker View Prev\":\"TRUE\"},{\"Live Monitor Exam Action\":\"TRUE\"},{\"Live Monitor Questions\":\"TRUE\"},{\"Live Monitor Timer\":\"TRUE\"},{\"Download Exam\":\"TRUE\"}],\"Gradebook\":[{\"View\":\"TRUE\"},{\"Search\":\"TRUE\"},{\"Edit\":\"TRUE\"},{\"Download\":\"TRUE\"}]},\"banks\":{\"1\":[\"Exam Administrator\"],\"3\":[\"Exam Administrator\"]},\"user\":\"28\"}"
+        },
+        "invalidheader": {
+            "accept": "application/json",
+            "webreferer": "https://sandbox-staging.assessappglobal.com.aussszrdfxf/"
+        },
+        "emptyTitleBody": {
+            "type": "MCQ",
+            "bank": 1,
+            "title": "",
+            "description": "<p>TEST MCQ Questions</p>",
+            "text": "<p>TEST MCQ Questions</p>",
+            "image": [],
+            "typea": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option A</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option B</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option C</p>",
+                    "checked": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>Option D</p>",
+                    "checked": "checked"
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "<p>Option E</p>",
+                    "checked": ""
+                }
+            ]
+        }
+    },
+    "saq": {
+        "body": {
+            "type": "SAQ / Essay",
+            "bank": 1,
+            "title": "SAQ Automation TEST Question",
+            "text": "<p>SAQ TEST Question</p>",
+            "description": "<p>SAQ TEST Question</p>",
+            "question_marks": {
+                "correct_answer": "<p>SAQ Sample Question Answer</p>",
+                "question_mark": 5
+            },
+            "image": [],
+            "shortanswer": [
+                {
+                    "position": 1,
+                    "header": "SAQ Sample Question",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>SAQ Sample Question Answer</p>",
+                            "required": "required",
+                            "mark": 2,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "editsaqbody": {
+            "type": "SAQ / Essay",
+            "bank": 1,
+            "title": "SAQ Sample Question",
+            "text": "<p>SAQ Sample Question</p>",
+            "description": "<p>SAQ Sample Question</p>",
+            "question_marks": {
+                "correct_answer": "<p>SAQ Sample Question Answer</p>",
+                "question_mark": 5
+            },
+            "image": [],
+            "shortanswer": [
+                {
+                    "position": 1,
+                    "header": "SAQ Sample Question",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>SAQ Sample Question Answer</p>",
+                            "required": "required",
+                            "mark": 1,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "emptyTitleBody": {
+            "type": "SAQ / Essay",
+            "bank": 1,
+            "title": "",
+            "text": "<p>SAQ TEST Question>",
+            "description": "<p>SAQ TEST Question</p>",
+            "question_marks": {
+                "correct_answer": "<p>SAQ Sample Question Answer</p>",
+                "question_mark": 5
+            },
+            "image": [],
+            "shortanswer": [
+                {
+                    "position": 1,
+                    "header": "SAQ Sample Question",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>SAQ Sample Question Answer</p>",
+                            "required": "required",
+                            "mark": 2,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "vsaq": {
+        "body": {
+            "type": "VSAQ",
+            "bank": 1,
+            "title": "Automation VSAQ test",
+            "text": "<p>question test</p>",
+            "description": "<p>question aim2</p>",
+            "question_marks": {
+                "correct_answer": "<p>model ans</p>",
+                "question_mark": 3
+            },
+            "image": [],
+            "veryshortanswer": [
+                {
+                    "position": 1,
+                    "header": "anskey one",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>ans key test</p>",
+                            "required": "required",
+                            "mark": 2,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "editvsaqbody": {
+            "type": "VSAQ",
+            "bank": 5,
+            "title": "vsaq test edit2",
+            "text": "<p>question test</p>",
+            "description": "<p>question aim</p>",
+            "question_marks": {
+                "correct_answer": "<p>model ans</p>",
+                "question_mark": 3
+            },
+            "image": [],
+            "veryshortanswer": [
+                {
+                    "position": 1,
+                    "header": "anskey one",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>ans key test</p>",
+                            "required": "required",
+                            "mark": 2,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "emptyTitleBody": {
+            "type": "VSAQ",
+            "bank": 1,
+            "title": "",
+            "text": "<p>question test</p>",
+            "description": "<p>question aim2</p>",
+            "question_marks": {
+                "correct_answer": "<p>model ans</p>",
+                "question_mark": 3
+            },
+            "image": [],
+            "veryshortanswer": [
+                {
+                    "position": 1,
+                    "header": "anskey one",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>ans key test</p>",
+                            "required": "required",
+                            "mark": 2,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "type_b": {
+        "body": {
+            "type": "Type B",
+            "bank": 1,
+            "title": "question type b test 2",
+            "description": "<p>question aim test</p>",
+            "statement": "<p>Statement text</p>",
+            "reason": "<p>Reason text</p>",
+            "image": [],
+            "typeb": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "Option 1",
+                    "checked": "checked"
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 2",
+                    "checked": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 3",
+                    "checked": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 4",
+                    "checked": ""
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 5",
+                    "checked": ""
+                }
+            ]
+        },
+        "edittypebbody": {
+            "type": "Type B",
+            "bank": 1,
+            "title": "question type b test updat",
+            "description": "<p>question aim test</p>",
+            "statement": "<p>Statement text</p>",
+            "reason": "<p>Reason text</p>",
+            "image": [],
+            "mandatorytags": "[]",
+            "typeb": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "Option 1",
+                    "checked": "checked"
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": 1,
+                    "markscontrol": "hide",
+                    "questiontext": "Option 2",
+                    "checked": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": 1,
+                    "markscontrol": "hide",
+                    "questiontext": "Option 3",
+                    "checked": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": 1,
+                    "markscontrol": "hide",
+                    "questiontext": "Option 4",
+                    "checked": ""
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": 1,
+                    "markscontrol": "hide",
+                    "questiontext": "Option 5",
+                    "checked": ""
+                }
+            ],
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "Type B",
+            "bank": 1,
+            "title": "",
+            "description": "<p>question aim test</p>",
+            "statement": "<p>Statement text</p>",
+            "reason": "<p>Reason text</p>",
+            "image": [],
+            "typeb": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "Option 1",
+                    "checked": "checked"
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 2",
+                    "checked": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 3",
+                    "checked": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 4",
+                    "checked": ""
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": "1",
+                    "markscontrol": "hide",
+                    "questiontext": "Option 5",
+                    "checked": ""
+                }
+            ]
+        }
+    },
+    "isawe": {
+        "body": {
+            "type": "ISAWE",
+            "bank": 5,
+            "title": "isawe question test 2",
+            "description": "<p>question aim</p>",
+            "isawe": [
+                {
+                    "position": 1,
+                    "scenario": "<p>scenario question 1</p>",
+                    "scenario_title": "Scenario",
+                    "scenario_required": true,
+                    "question_mark": 15,
+                    "question_mark_title": "",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "sub_questions": [
+                        {
+                            "position": 1,
+                            "question_text": "<p>q1 sub question text</p>",
+                            "question_text_title": "Question Text",
+                            "question_text_required": true,
+                            "correct_answer": "<p>model ans</p>",
+                            "correct_answer_title": "Model Answer",
+                            "correct_answer_required": true,
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": [],
+                            "image_options_arr": [],
+                            "image_title": "Image",
+                            "image_required": false,
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "answer key",
+                                    "required": "",
+                                    "total_sum": 0,
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>ans sub1</p>",
+                                            "required": "",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "position": 1,
+                            "question_text": "<p>q sub2 text</p>",
+                            "correct_answer": "<p>model sub2&nbsp;</p>",
+                            "question_text_required": "required",
+                            "correct_answer_required": "required",
+                            "image_required": "",
+                            "correct_answer_title": "Model Answer",
+                            "question_text_title": "Question Text",
+                            "image_title": "Image",
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": "",
+                            "image_options_arr": "",
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "ans sub2",
+                                    "required": "",
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>anskey sub2</p>",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 1,
+                    "scenario": "<p>Question2 scenario</p>",
+                    "scenario_title": "Scenario",
+                    "scenario_required": "required",
+                    "question_mark": 10,
+                    "question_mark_title": "",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": "",
+                    "sub_questions": [
+                        {
+                            "position": 0,
+                            "question_text": "<p>q2 sub1 question text</p>",
+                            "correct_answer": "<p>model ans</p>",
+                            "question_text_required": "required",
+                            "correct_answer_required": "required",
+                            "image_required": "",
+                            "correct_answer_title": "Model Answer",
+                            "question_text_title": "Question Text",
+                            "image_title": "Image",
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": "",
+                            "image_options_arr": "",
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "anske q2 sub1",
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>test anske</p>",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "position": 1,
+                            "question_text": "<p>q2 sub2 questio text</p>",
+                            "correct_answer": "<p>model q2 sub2</p>",
+                            "question_text_required": "required",
+                            "correct_answer_required": "required",
+                            "image_required": "",
+                            "correct_answer_title": "Model Answer",
+                            "question_text_title": "Question Text",
+                            "image_title": "Image",
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": "",
+                            "image_options_arr": "",
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "anske q2 sub2",
+                                    "required": "",
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>key2</p>",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "editisawebody": {
+            "type": "ISAWE",
+            "bank": 5,
+            "title": "isawe question test edit2",
+            "description": "<p>question aim</p>",
+            "mandatorytags": "[]",
+            "isawe": [
+                {
+                    "position": 1,
+                    "scenario": "<p>scenario question 1</p>",
+                    "scenario_title": "Scenario",
+                    "scenario_required": true,
+                    "question_mark": 15,
+                    "question_mark_title": "",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "sub_questions": [
+                        {
+                            "position": 1,
+                            "question_text": "<p>q1 sub question text</p>",
+                            "question_text_title": "Question Text",
+                            "question_text_required": true,
+                            "correct_answer": "<p>model ans</p>",
+                            "correct_answer_title": "Model Answer",
+                            "correct_answer_required": true,
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": [],
+                            "image_options_arr": [],
+                            "image_title": "Image",
+                            "image_required": false,
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "answer key",
+                                    "required": "",
+                                    "total_sum": 5,
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>ans sub1</p>",
+                                            "required": "",
+                                            "mark": "5",
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "position": 2,
+                            "question_text": "<p>q sub2 text</p>",
+                            "question_text_title": "Question Text",
+                            "question_text_required": true,
+                            "correct_answer": "<p>model sub2&nbsp;</p>",
+                            "correct_answer_title": "Model Answer",
+                            "correct_answer_required": true,
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": [],
+                            "image_options_arr": [],
+                            "image_title": "Image",
+                            "image_required": false,
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "ans sub2",
+                                    "required": "",
+                                    "total_sum": 5,
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>anskey sub2</p>",
+                                            "required": "",
+                                            "mark": "5",
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "scenario": "<p>Question2 scenario</p>",
+                    "scenario_title": "Scenario",
+                    "scenario_required": true,
+                    "question_mark": 10,
+                    "question_mark_title": "",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "sub_questions": [
+                        {
+                            "position": 1,
+                            "question_text": "<p>q2 sub1 question text</p>",
+                            "question_text_title": "Question Text",
+                            "question_text_required": true,
+                            "correct_answer": "<p>model ans</p>",
+                            "correct_answer_title": "Model Answer",
+                            "correct_answer_required": true,
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": [],
+                            "image_options_arr": [],
+                            "image_title": "Image",
+                            "image_required": false,
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "anske q2 sub1",
+                                    "required": "",
+                                    "total_sum": 5,
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>test anske</p>",
+                                            "required": "",
+                                            "mark": "5",
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "position": 2,
+                            "question_text": "<p>q2 sub2 questio text</p>",
+                            "question_text_title": "Question Text",
+                            "question_text_required": true,
+                            "correct_answer": "<p>model q2 sub2</p>",
+                            "correct_answer_title": "Model Answer",
+                            "correct_answer_required": true,
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": [],
+                            "image_options_arr": [],
+                            "image_title": "Image",
+                            "image_required": false,
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "anske q2 sub2",
+                                    "required": "",
+                                    "total_sum": 5,
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>key2</p>",
+                                            "required": "",
+                                            "mark": "5",
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "ISAWE",
+            "bank": 5,
+            "title": "",
+            "description": "<p>question aim</p>",
+            "isawe": [
+                {
+                    "position": 1,
+                    "scenario": "<p>scenario question 1</p>",
+                    "scenario_title": "Scenario",
+                    "scenario_required": true,
+                    "question_mark": 15,
+                    "question_mark_title": "",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "sub_questions": [
+                        {
+                            "position": 1,
+                            "question_text": "<p>q1 sub question text</p>",
+                            "question_text_title": "Question Text",
+                            "question_text_required": true,
+                            "correct_answer": "<p>model ans</p>",
+                            "correct_answer_title": "Model Answer",
+                            "correct_answer_required": true,
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": [],
+                            "image_options_arr": [],
+                            "image_title": "Image",
+                            "image_required": false,
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "answer key",
+                                    "required": "",
+                                    "total_sum": 0,
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>ans sub1</p>",
+                                            "required": "",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "position": 1,
+                            "question_text": "<p>q sub2 text</p>",
+                            "correct_answer": "<p>model sub2&nbsp;</p>",
+                            "question_text_required": "required",
+                            "correct_answer_required": "required",
+                            "image_required": "",
+                            "correct_answer_title": "Model Answer",
+                            "question_text_title": "Question Text",
+                            "image_title": "Image",
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": "",
+                            "image_options_arr": "",
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "ans sub2",
+                                    "required": "",
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>anskey sub2</p>",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 1,
+                    "scenario": "<p>Question2 scenario</p>",
+                    "scenario_title": "Scenario",
+                    "scenario_required": "required",
+                    "question_mark": 10,
+                    "question_mark_title": "",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": "",
+                    "sub_questions": [
+                        {
+                            "position": 0,
+                            "question_text": "<p>q2 sub1 question text</p>",
+                            "correct_answer": "<p>model ans</p>",
+                            "question_text_required": "required",
+                            "correct_answer_required": "required",
+                            "image_required": "",
+                            "correct_answer_title": "Model Answer",
+                            "question_text_title": "Question Text",
+                            "image_title": "Image",
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": "",
+                            "image_options_arr": "",
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "anske q2 sub1",
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>test anske</p>",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "position": 1,
+                            "question_text": "<p>q2 sub2 questio text</p>",
+                            "correct_answer": "<p>model q2 sub2</p>",
+                            "question_text_required": "required",
+                            "correct_answer_required": "required",
+                            "image_required": "",
+                            "correct_answer_title": "Model Answer",
+                            "question_text_title": "Question Text",
+                            "image_title": "Image",
+                            "question_mark": 5,
+                            "question_mark_title": "Mark",
+                            "question_mark_required": false,
+                            "image": "",
+                            "image_options_arr": "",
+                            "answer_keys": [
+                                {
+                                    "position": 1,
+                                    "header": "anske q2 sub2",
+                                    "required": "",
+                                    "answer_key_childs": [
+                                        {
+                                            "position": 1,
+                                            "parameter": "<p>key2</p>",
+                                            "mark": 5,
+                                            "mark_required": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "type_x": {
+        "body": {
+            "type": "Type X",
+            "bank": 1,
+            "title": "typex topic 2",
+            "description": "<p>question aim</p>",
+            "text-typex": "<p>question</p>",
+            "image": [],
+            "typex": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option true</p>",
+                    "checked": "",
+                    "answerstatus": "true",
+                    "false": ""
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option b false</p>",
+                    "checked": "",
+                    "answerstatus": "false",
+                    "false": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option c true</p>",
+                    "checked": "",
+                    "answerstatus": "true",
+                    "false": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option d true</p>",
+                    "checked": "",
+                    "answerstatus": "true",
+                    "false": ""
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option e false</p>",
+                    "checked": "",
+                    "answerstatus": "false",
+                    "false": ""
+                }
+            ]
+        },
+        "edittype_xbody": {
+            "type": "Type X",
+            "bank": 1,
+            "title": "typex topic edit2",
+            "description": "<p>question aim</p>",
+            "text-typex": "<p>question</p>",
+            "image": [],
+            "typex": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "<p>option true</p>",
+                    "checked": "checked",
+                    "answerstatus": "true",
+                    "true": "checked"
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "<p>option b false</p>",
+                    "checked": "checked",
+                    "answerstatus": "false",
+                    "false": "checked"
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "<p>option c true</p>",
+                    "checked": "checked",
+                    "answerstatus": "true",
+                    "true": "checked"
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "<p>option d true</p>",
+                    "checked": "checked",
+                    "answerstatus": "true",
+                    "true": "checked"
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": 1,
+                    "markscontrol": "show",
+                    "questiontext": "<p>option e false</p>",
+                    "checked": "checked",
+                    "answerstatus": "false",
+                    "false": "checked"
+                }
+            ]
+        },
+        "emptyTitleBody": {
+            "type": "Type X",
+            "bank": 1,
+            "title": "",
+            "description": "<p>question aim</p>",
+            "text-typex": "<p>question</p>",
+            "image": [],
+            "typex": [
+                {
+                    "id": 1,
+                    "listname": "A",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option true</p>",
+                    "checked": "",
+                    "answerstatus": "true",
+                    "false": ""
+                },
+                {
+                    "id": 2,
+                    "listname": "B",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option b false</p>",
+                    "checked": "",
+                    "answerstatus": "false",
+                    "false": ""
+                },
+                {
+                    "id": 3,
+                    "listname": "C",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option c true</p>",
+                    "checked": "",
+                    "answerstatus": "true",
+                    "false": ""
+                },
+                {
+                    "id": 4,
+                    "listname": "D",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option d true</p>",
+                    "checked": "",
+                    "answerstatus": "true",
+                    "false": ""
+                },
+                {
+                    "id": 5,
+                    "listname": "E",
+                    "markvalue": "1",
+                    "markscontrol": "show",
+                    "questiontext": "<p>option e false</p>",
+                    "checked": "",
+                    "answerstatus": "false",
+                    "false": ""
+                }
+            ]
+        }
+    },
+    "sjt": {
+        "body": {
+            "type": "SJT",
+            "bank": 1,
+            "title": "sjt question topic 2",
+            "description": "<p>question aims</p>",
+            "text": "<p>quuestion stem</p>",
+            "image": [],
+            "sjt": {
+                "rankingTotal": 20,
+                "rankingList": [
+                    {
+                        "topic": "<p>responce text1</p>",
+                        "selectedRanking": 1,
+                        "mark": 10
+                    },
+                    {
+                        "topic": "<p>responce text2</p>",
+                        "selectedRanking": 2,
+                        "mark": 10
+                    }
+                ]
+            }
+        },
+        "editsjtbody": {
+            "type": "SJT",
+            "bank": 1,
+            "title": "sjt question topic edited",
+            "description": "<p>question aims</p>",
+            "text": "<p>quuestion stem</p>",
+            "image": [],
+            "mandatorytags": "[]",
+            "sjt": {
+                "rankingTotal": 20,
+                "rankingList": [
+                    {
+                        "topic": "<p>responce text1</p>",
+                        "selectedRanking": 1,
+                        "mark": 10
+                    },
+                    {
+                        "topic": "<p>responce text2</p>",
+                        "selectedRanking": 2,
+                        "mark": 10
+                    }
+                ]
+            },
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "SJT",
+            "bank": 1,
+            "title": "",
+            "description": "<p>question aims</p>",
+            "text": "<p>quuestion stem</p>",
+            "image": [],
+            "sjt": {
+                "rankingTotal": 20,
+                "rankingList": [
+                    {
+                        "topic": "<p>responce text1</p>",
+                        "selectedRanking": 1,
+                        "mark": 10
+                    },
+                    {
+                        "topic": "<p>responce text2</p>",
+                        "selectedRanking": 2,
+                        "mark": 10
+                    }
+                ]
+            }
+        }
+    },
+    "scenario": {
+        "body": {
+            "type": "Scenario",
+            "bank": 5,
+            "title": "Scenario question text2",
+            "description": "<p>question aim2</p>",
+            "text": "<p>stem test</p>",
+            "image": [],
+            "seq": [
+                {
+                    "position": 1,
+                    "question_text": "<p>question test a</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "question_mark": 5,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "correct_answer": "<p>model ans a</p>",
+                    "correct_answer_title": "Model Answer",
+                    "correct_answer_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "header": "markiguid test a",
+                            "position": 1,
+                            "required": "",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "<p>ans keya</p>",
+                                    "required": "",
+                                    "isForJsonSchema": true,
+                                    "mark": 2,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "question_text": "<p>question txt b</p>",
+                    "correct_answer": "<p>model ans b</p>",
+                    "question_text_required": "required",
+                    "correct_answer_required": false,
+                    "image_required": "",
+                    "correct_answer_title": "Model Answer",
+                    "question_text_title": "Question Text",
+                    "image_title": "Image",
+                    "question_mark": 10,
+                    "image": "",
+                    "image_options_arr": "",
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "marking guid b",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "<p>test b</p>",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "editscenariobody": {
+            "type": "Scenario",
+            "bank": 5,
+            "title": "Scenario question text edit1",
+            "description": "<p>question aim</p>",
+            "text": "<p>stem test</p>",
+            "image": [],
+            "mandatorytags": "[]",
+            "seq": [
+                {
+                    "position": 1,
+                    "question_text": "<p>question test a</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "question_mark": 5,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "correct_answer": "<p>model ans a</p>",
+                    "correct_answer_title": "Model Answer",
+                    "correct_answer_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "markiguid test a",
+                            "required": "",
+                            "total_sum": 2,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "<p>ans keya</p>",
+                                    "required": "",
+                                    "mark": 2,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "question_text": "<p>question txt b</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "question_mark": 10,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "correct_answer": "<p>model ans b</p>",
+                    "correct_answer_title": "Model Answer",
+                    "correct_answer_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "marking guid b",
+                            "required": "",
+                            "total_sum": 10,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "<p>test b</p>",
+                                    "required": "",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "Scenario",
+            "bank": 5,
+            "title": "",
+            "description": "<p>question aim2</p>",
+            "text": "<p>stem test</p>",
+            "image": [],
+            "seq": [
+                {
+                    "position": 1,
+                    "question_text": "<p>question test a</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "question_mark": 5,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "correct_answer": "<p>model ans a</p>",
+                    "correct_answer_title": "Model Answer",
+                    "correct_answer_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "header": "markiguid test a",
+                            "position": 1,
+                            "required": "",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "<p>ans keya</p>",
+                                    "required": "",
+                                    "isForJsonSchema": true,
+                                    "mark": 2,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "question_text": "<p>question txt b</p>",
+                    "correct_answer": "<p>model ans b</p>",
+                    "question_text_required": "required",
+                    "correct_answer_required": false,
+                    "image_required": "",
+                    "correct_answer_title": "Model Answer",
+                    "question_text_title": "Question Text",
+                    "image_title": "Image",
+                    "question_mark": 10,
+                    "image": "",
+                    "image_options_arr": "",
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "marking guid b",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "<p>test b</p>",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "isawe_case": {
+        "body": {
+            "type": "ISAWE-CASE",
+            "bank": 3,
+            "title": "isawe api check 2",
+            "description": "<p>question aims</p>",
+            "text": "<p>case</p>",
+            "show_questions": "Multiple Page",
+            "image": [],
+            "isawecase": [
+                {
+                    "type": "MCQ-MSMG",
+                    "bank": 3,
+                    "title": "Qestion msmg",
+                    "description": "<p>question aim</p>",
+                    "text": "<p>sub question msmg</p>",
+                    "answer_selection": "1",
+                    "max_score": 2,
+                    "image": [],
+                    "mcqmsmg": [
+                        {
+                            "id": 1,
+                            "listname": "A",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option a</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 2,
+                            "listname": "B",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option b</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 3,
+                            "listname": "C",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option c</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 4,
+                            "listname": "D",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option d</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 5,
+                            "listname": "E",
+                            "markvalue": "1",
+                            "markscontrol": "show",
+                            "questiontext": "<p>optin e</p>",
+                            "checked": true,
+                            "markRead": true,
+                            "markType": "number"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "type": "VSAQ-MG",
+                    "bank": 3,
+                    "title": "vsaq",
+                    "description": "<p>question aim</p>",
+                    "text": "<p>sub quest2</p>",
+                    "image": [],
+                    "written_answers": 152,
+                    "killer_answers": [],
+                    "important_answers": [],
+                    "groups": 172,
+                    "max_score": 3,
+                    "vsaqmg": [
+                        {
+                            "header": "",
+                            "position": 1,
+                            "required": "",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "mark": 0,
+                                    "mark_required": false,
+                                    "marked_score": 0,
+                                    "required": "required",
+                                    "group": "",
+                                    "group_score": "",
+                                    "important": false,
+                                    "killer": false,
+                                    "parameter": "<p>test</p>",
+                                    "isForJsonSchema": true
+                                }
+                            ]
+                        }
+                    ],
+                    "tags": []
+                }
+            ]
+        },
+        "editisawe_casebody": {
+            "type": "ISAWE-CASE",
+            "bank": 3,
+            "title": "isawe api check edite",
+            "description": "<p>question aims</p>",
+            "text": "<p>case</p>",
+            "show_questions": "Multiple Page",
+            "image": [],
+            "mandatorytags": "[]",
+            "isawecase": [
+                {
+                    "type": "MCQ-MSMG",
+                    "bank": 3,
+                    "title": "Qestion msmg",
+                    "description": "<p>question aim</p>",
+                    "text": "<p>sub question msmg</p>",
+                    "answer_selection": "1",
+                    "max_score": 2,
+                    "image": [],
+                    "mcqmsmg": [
+                        {
+                            "id": 1,
+                            "listname": "A",
+                            "markvalue": 1,
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option a</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 2,
+                            "listname": "B",
+                            "markvalue": 1,
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option b</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 3,
+                            "listname": "C",
+                            "markvalue": 1,
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option c</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 4,
+                            "listname": "D",
+                            "markvalue": 1,
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option d</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 5,
+                            "listname": "E",
+                            "markvalue": 1,
+                            "markscontrol": "show",
+                            "questiontext": "<p>optin e</p>",
+                            "checked": true,
+                            "markRead": true,
+                            "markType": "number"
+                        }
+                    ],
+                    "questionId": 288,
+                    "tags": []
+                },
+                {
+                    "type": "VSAQ-MG",
+                    "bank": 3,
+                    "title": "vsaq",
+                    "description": "<p>question aim</p>",
+                    "text": "<p>sub quest2</p>",
+                    "image": [],
+                    "written_answers": 152,
+                    "killer_answers": [],
+                    "important_answers": [],
+                    "groups": 172,
+                    "max_score": 3,
+                    "mandatorytags": "[]",
+                    "vsaqmg": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "required": "",
+                            "total_sum": 0,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "mark": 0,
+                                    "mark_required": false,
+                                    "marked_score": 0,
+                                    "required": "required",
+                                    "group": "",
+                                    "group_score": "",
+                                    "important": false,
+                                    "killer": false,
+                                    "parameter": "<p>test</p>"
+                                }
+                            ]
+                        }
+                    ],
+                    "questionId": 289,
+                    "tags": []
+                }
+            ],
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "ISAWE-CASE",
+            "bank": 3,
+            "title": "",
+            "description": "<p>question aims</p>",
+            "text": "<p>case</p>",
+            "show_questions": "Multiple Page",
+            "image": [],
+            "isawecase": [
+                {
+                    "type": "MCQ-MSMG",
+                    "bank": 3,
+                    "title": "Qestion msmg",
+                    "description": "<p>question aim</p>",
+                    "text": "<p>sub question msmg</p>",
+                    "answer_selection": "1",
+                    "max_score": 2,
+                    "image": [],
+                    "mcqmsmg": [
+                        {
+                            "id": 1,
+                            "listname": "A",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option a</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 2,
+                            "listname": "B",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option b</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 3,
+                            "listname": "C",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option c</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 4,
+                            "listname": "D",
+                            "markvalue": "1",
+                            "markscontrol": "hide",
+                            "questiontext": "<p>option d</p>",
+                            "checked": false,
+                            "markRead": true,
+                            "markType": "number"
+                        },
+                        {
+                            "id": 5,
+                            "listname": "E",
+                            "markvalue": "1",
+                            "markscontrol": "show",
+                            "questiontext": "<p>optin e</p>",
+                            "checked": true,
+                            "markRead": true,
+                            "markType": "number"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "type": "VSAQ-MG",
+                    "bank": 3,
+                    "title": "vsaq",
+                    "description": "<p>question aim</p>",
+                    "text": "<p>sub quest2</p>",
+                    "image": [],
+                    "written_answers": 152,
+                    "killer_answers": [],
+                    "important_answers": [],
+                    "groups": 172,
+                    "max_score": 3,
+                    "vsaqmg": [
+                        {
+                            "header": "",
+                            "position": 1,
+                            "required": "",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "mark": 0,
+                                    "mark_required": false,
+                                    "marked_score": 0,
+                                    "required": "required",
+                                    "group": "",
+                                    "group_score": "",
+                                    "important": false,
+                                    "killer": false,
+                                    "parameter": "<p>test</p>",
+                                    "isForJsonSchema": true
+                                }
+                            ]
+                        }
+                    ],
+                    "tags": []
+                }
+            ]
+        }
+    },
+    "ranking": {
+        "body": {
+            "type": "Ranking Question",
+            "bank": 1,
+            "title": "question topic ranking 2",
+            "description": "<p>questio aim</p>",
+            "text": "<p>stem question</p>",
+            "question_mark": "4",
+            "image": [],
+            "ranking": [
+                {
+                    "id": 1,
+                    "listname": 1,
+                    "questiontext": "<p>option 1</p>"
+                },
+                {
+                    "id": 2,
+                    "listname": 2,
+                    "questiontext": "<p>option 2</p>"
+                },
+                {
+                    "id": 3,
+                    "listname": 3,
+                    "questiontext": "<p>option 3</p>"
+                },
+                {
+                    "id": 4,
+                    "listname": 4,
+                    "questiontext": "<p>option 4</p>"
+                },
+                {
+                    "id": 5,
+                    "listname": 5,
+                    "questiontext": "<p>option 5</p>"
+                }
+            ]
+        },
+        "editrankingbody": {
+            "type": "Ranking Question",
+            "bank": 1,
+            "title": "question topic ranking editu",
+            "description": "<p>questio aim</p>",
+            "text": "<p>stem question</p>",
+            "question_mark": "4",
+            "image": [],
+            "mandatorytags": "[]",
+            "ranking": [
+                {
+                    "id": 1,
+                    "listname": 1,
+                    "questiontext": "<p>option 1</p>"
+                },
+                {
+                    "id": 2,
+                    "listname": 2,
+                    "questiontext": "<p>option 2</p>"
+                },
+                {
+                    "id": 3,
+                    "listname": 3,
+                    "questiontext": "<p>option 3</p>"
+                },
+                {
+                    "id": 4,
+                    "listname": 4,
+                    "questiontext": "<p>option 4</p>"
+                },
+                {
+                    "id": 5,
+                    "listname": 5,
+                    "questiontext": "<p>option 5</p>"
+                }
+            ],
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "Ranking Question",
+            "bank": 1,
+            "title": "",
+            "description": "<p>questio aim</p>",
+            "text": "<p>stem question</p>",
+            "question_mark": "4",
+            "image": [],
+            "ranking": [
+                {
+                    "id": 1,
+                    "listname": 1,
+                    "questiontext": "<p>option 1</p>"
+                },
+                {
+                    "id": 2,
+                    "listname": 2,
+                    "questiontext": "<p>option 2</p>"
+                },
+                {
+                    "id": 3,
+                    "listname": 3,
+                    "questiontext": "<p>option 3</p>"
+                },
+                {
+                    "id": 4,
+                    "listname": 4,
+                    "questiontext": "<p>option 4</p>"
+                },
+                {
+                    "id": 5,
+                    "listname": 5,
+                    "questiontext": "<p>option 5</p>"
+                }
+            ]
+        }
+    },
+    "spot_question": {
+        "body": {
+            "type": "Spot Question",
+            "bank": 41,
+            "title": "question spot2",
+            "description": "<p>question descrip</p>",
+            "text": "<p>case scena</p>",
+            "image": [],
+            "spotanswer": [
+                {
+                    "position": 1,
+                    "question_text": "<p>question1 text&nbsp;</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "question_mark": 10,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "required": "",
+                            "total_sum": 0,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "answer key1",
+                                    "required": "required",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "question_text": "<p>quest2</p>",
+                    "correct_answer": "",
+                    "question_text_required": "required",
+                    "image_required": "",
+                    "question_text_title": "Question Text",
+                    "image_title": "Image",
+                    "question_mark": 10,
+                    "image": "",
+                    "image_options_arr": "",
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "ans q2",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "editspotbody": {
+            "type": "Spot Question",
+            "bank": 41,
+            "title": "question spot2 edit",
+            "description": "<p>question descrip</p>",
+            "text": "<p>case scena</p>",
+            "image": [],
+            "spotanswer": [
+                {
+                    "position": 1,
+                    "question_text": "<p>question1 text&nbsp;</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "correct_answer": "",
+                    "correct_answer_title": "Correct Answer",
+                    "correct_answer_required": true,
+                    "question_mark": 10,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "required": "",
+                            "total_sum": 10,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "answer key1",
+                                    "required": "required",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "question_text": "<p>quest2</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "correct_answer": "",
+                    "correct_answer_title": "Correct Answer",
+                    "correct_answer_required": true,
+                    "question_mark": 10,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "required": "",
+                            "total_sum": 10,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "ans q2",
+                                    "required": "required",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "emptyTitleBody": {
+            "type": "Spot Question",
+            "bank": 41,
+            "title": "",
+            "description": "<p>question descrip</p>",
+            "text": "<p>case scena</p>",
+            "image": [],
+            "spotanswer": [
+                {
+                    "position": 1,
+                    "question_text": "<p>question1 text&nbsp;</p>",
+                    "question_text_title": "Question Text",
+                    "question_text_required": true,
+                    "question_mark": 10,
+                    "question_mark_title": "Mark",
+                    "question_mark_required": false,
+                    "image": [],
+                    "image_options_arr": [],
+                    "image_title": "Image",
+                    "image_required": false,
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "required": "",
+                            "total_sum": 0,
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "answer key1",
+                                    "required": "required",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "question_text": "<p>quest2</p>",
+                    "correct_answer": "",
+                    "question_text_required": "required",
+                    "image_required": "",
+                    "question_text_title": "Question Text",
+                    "image_title": "Image",
+                    "question_mark": 10,
+                    "image": "",
+                    "image_options_arr": "",
+                    "answer_keys": [
+                        {
+                            "position": 1,
+                            "header": "",
+                            "answer_key_childs": [
+                                {
+                                    "position": 1,
+                                    "parameter": "ans q2",
+                                    "mark": 10,
+                                    "mark_required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "longAnswer": {
+        "body": {
+            "type": "Long Answer",
+            "bank": 41,
+            "title": "question title long 2",
+            "description": "<p>question des</p>",
+            "text": "<p>case scen</p>",
+            "question_marks": {
+                "correct_answer": "<p>correct ans</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "longanswer": [
+                {
+                    "position": 1,
+                    "header": "anskey",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>text</p>",
+                            "required": "required",
+                            "mark": 5,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "editlonganswerbody": {
+            "type": "Long Answer",
+            "bank": 41,
+            "title": "question title long edite",
+            "description": "<p>question des</p>",
+            "text": "<p>case scen</p>",
+            "question_marks": {
+                "correct_answer": "<p>correct ans</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "mandatorytags": "[]",
+            "longanswer": [
+                {
+                    "position": 1,
+                    "header": "anskey",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>text</p>",
+                            "required": "required",
+                            "mark": 5,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ],
+            "tags": []
+        },
+        "emptyTitleBody": {
+            "type": "Long Answer",
+            "bank": 41,
+            "title": "",
+            "description": "<p>question des</p>",
+            "text": "<p>case scen</p>",
+            "question_marks": {
+                "correct_answer": "<p>correct ans</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "longanswer": [
+                {
+                    "position": 1,
+                    "header": "anskey",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>text</p>",
+                            "required": "required",
+                            "mark": 5,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Translation": {
+        "body": {
+            "type": "Translation Question",
+            "bank": 1,
+            "title": "test topic",
+            "text": "<p>test question stem</p>",
+            "description": "<p>test question aims</p>",
+            "sourceLanguage": [
+                {
+                    "id": 1,
+                    "name": "Afar"
+                }
+            ],
+            "translationLanguage": [
+                {
+                    "id": 2,
+                    "name": "Abkhazian"
+                }
+            ],
+            "sourcetext": "<p dir=\"ltr\">test siurce</p>",
+            "question_marks": {
+                "correct_answer": "<p dir=\"ltr\">test model</p>",
+                "question_mark": 0
+            },
+            "image": [],
+            "tags": [
+                {
+                    "label": "Test tag",
+                    "id": 1,
+                    "tag_type_id": 1,
+                    "tagstatus": true,
+                    "tagVal": "Test tag value",
+                    "editor": "",
+                    "control_id": 1,
+                    "control_name": "input",
+                    "option_arr": [],
+                    "status": ""
+                }
+            ],
+            "translation": [
+                {
+                    "header": "anskey1",
+                    "position": 1,
+                    "required": "",
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>test des</p>",
+                            "required": "required",
+                            "isForJsonSchema": true,
+                            "mark": 0,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "editTranslatonbody": {
+            "type": "Translation Question",
+            "bank": 1,
+            "title": "test topic",
+            "text": "<p>test question stem</p>",
+            "description": "<p>test question aims</p>",
+            "sourceLanguage": [
+                {
+                    "id": 1,
+                    "name": "Afar"
+                }
+            ],
+            "translationLanguage": [
+                {
+                    "id": 2,
+                    "name": "Abkhazian"
+                }
+            ],
+            "sourcetext": "<p>test siurcew</p>",
+            "question_marks": {
+                "correct_answer": "<p>1test model</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "tags": [
+                {
+                    "id": 1,
+                    "tag_type_id": 1,
+                    "tag_type_name": "Test tag",
+                    "name": "Test tag value",
+                    "control_id": 1,
+                    "control_name": "input",
+                    "editor": "",
+                    "value": "",
+                    "label": "Test tag",
+                    "tagVal": "Test tag value",
+                    "tagstatus": true
+                }
+            ],
+            "translation": [
+                {
+                    "position": 1,
+                    "header": "anskey1",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>test des</p>",
+                            "required": "required",
+                            "mark": 10,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "emptyTitleBody": {
+            "type": "Translation Question",
+            "bank": 1,
+            "title": "",
+            "text": "<p>test question stem</p>",
+            "description": "<p>test question aims</p>",
+            "sourceLanguage": [
+                {
+                    "id": 1,
+                    "name": "Afar"
+                }
+            ],
+            "translationLanguage": [
+                {
+                    "id": 2,
+                    "name": "Abkhazian"
+                }
+            ],
+            "sourcetext": "<p dir=\"ltr\">test siurce</p>",
+            "question_marks": {
+                "correct_answer": "<p dir=\"ltr\">test model</p>",
+                "question_mark": 0
+            },
+            "image": [],
+            "tags": [
+                {
+                    "label": "Test tag",
+                    "id": 1,
+                    "tag_type_id": 1,
+                    "tagstatus": true,
+                    "tagVal": "Test tag value",
+                    "editor": "",
+                    "control_id": 1,
+                    "control_name": "input",
+                    "option_arr": [],
+                    "status": ""
+                }
+            ],
+            "translation": [
+                {
+                    "header": "anskey1",
+                    "position": 1,
+                    "required": "",
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>test des</p>",
+                            "required": "required",
+                            "isForJsonSchema": true,
+                            "mark": 0,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Revision": {
+        "body": {
+            "type": "Revision Question",
+            "bank": 1,
+            "title": "test rev",
+            "text": "<p>rev</p>",
+            "description": "<p>rev qusest</p>",
+            "sourceLanguage": [
+                {
+                    "id": 1,
+                    "name": "Afar"
+                }
+            ],
+            "translationLanguage": [
+                {
+                    "id": 3,
+                    "name": "Afrikaans"
+                }
+            ],
+            "sourcetext": "<p dir=\"ltr\">sour</p>",
+            "reviewtext": "<p dir=\"ltr\">test text</p>",
+            "question_marks": {
+                "correct_answer": "<p dir=\"ltr\">module ans</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "revision": [
+                {
+                    "header": "ans key",
+                    "position": 1,
+                    "required": "",
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>key ver</p>",
+                            "required": "required",
+                            "isForJsonSchema": true,
+                            "mark": 10,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "editRevisionbody": {
+            "type": "Revision Question",
+            "bank": 1,
+            "title": "test rev",
+            "text": "<p>rev</p>",
+            "description": "<p>rev qusest</p>",
+            "sourceLanguage": [
+                {
+                    "id": 1,
+                    "name": "Afar"
+                }
+            ],
+            "translationLanguage": [
+                {
+                    "id": 3,
+                    "name": "Afrikaans"
+                }
+            ],
+            "sourcetext": "<p dir=\"ltr\">sour</p>",
+            "reviewtext": "<p dir=\"ltr\">test text</p>",
+            "question_marks": {
+                "correct_answer": "<p dir=\"ltr\">module ans</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "revision": [
+                {
+                    "position": 1,
+                    "header": "ans key",
+                    "required": "",
+                    "total_sum": 0,
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>key ver</p>",
+                            "required": "required",
+                            "mark": 10,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "emptyTitleBody": {
+            "type": "Revision Question",
+            "bank": 1,
+            "title": "",
+            "text": "<p>rev</p>",
+            "description": "<p>rev qusest</p>",
+            "sourceLanguage": [
+                {
+                    "id": 1,
+                    "name": "Afar"
+                }
+            ],
+            "translationLanguage": [
+                {
+                    "id": 3,
+                    "name": "Afrikaans"
+                }
+            ],
+            "sourcetext": "<p dir=\"ltr\">sour</p>",
+            "reviewtext": "<p dir=\"ltr\">test text</p>",
+            "question_marks": {
+                "correct_answer": "<p dir=\"ltr\">module ans</p>",
+                "question_mark": 10
+            },
+            "image": [],
+            "revision": [
+                {
+                    "header": "ans key",
+                    "position": 1,
+                    "required": "",
+                    "answer_key_childs": [
+                        {
+                            "position": 1,
+                            "parameter": "<p>key ver</p>",
+                            "required": "required",
+                            "isForJsonSchema": true,
+                            "mark": 10,
+                            "mark_required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "OSCE_question": {
+        "OSCE_question_schema": {
+            "type": "OSCE Question",
+            "bank": 1,
+            "title": "osce q 212",
+            "description": "<p>osce description</p>",
+            "station_title": "station title",
+            "station_type": [
+                {
+                    "id": "Examination",
+                    "name": "Examination"
+                }
+            ],
+            "information_for_candidate": "<p>infom for candidate</p>",
+            "information_for_examiner": "<p>onfom for examinar</p>",
+            "alert": "",
+            "patient_instructions": "<p>patient</p>",
+            "requirements": "<p>request equipment</p>",
+            "compulsary_feedback_display_text": "<p>compulsory feedback</p>",
+            "mandatorytags": "[]",
+            "comment": "<p>comments</p>",
+            "tags": []
+        }
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "Exam_Service": {
+        "Create_exam_get_started_exam_types": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "ExamTypes": {
+                    "type": "object",
+                    "properties": {
+                        "scratch_exam": {
+                            "type": "boolean"
+                        },
+                        "existing_exam": {
+                            "type": "boolean"
+                        },
+                        "template_exam": {
+                            "type": "boolean"
+                        }
+                    },
+                    "required": [
+                        "scratch_exam",
+                        "existing_exam",
+                        "template_exam"
+                    ]
+                }
+            },
+            "required": [
+                "ExamTypes"
+            ]
+        }
+    },
+    "Delivery": {
+        "exam_bulk_upload_users_page": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "Response": {
+                    "type": "object",
+                    "properties": {
+                        "bulk-upload-users": {
+                            "type": "boolean"
+                        },
+                        "Success": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "bulk-upload-users",
+                        "Success"
+                    ]
+                }
+            },
+            "required": [
+                "Response"
+            ]
+        },
+        "sample_file_upload_users": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "Response": {
+                    "type": "object",
+                    "properties": {
+                        "Message": {
+                            "type": "string",
+                            "minLength": 1
+                        },
+                        "id": {
+                            "type": "number"
+                        },
+                        "Success": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "Message",
+                        "id",
+                        "Success"
+                    ]
+                }
+            },
+            "required": [
+                "Response"
+            ]
+        },
+        "Savebulk_users": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "Response": {
+                    "type": "object",
+                    "properties": {
+                        "Message": {
+                            "type": "string",
+                            "minLength": 1
+                        },
+                        "Success": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "Message",
+                        "Success"
+                    ]
+                }
+            },
+            "required": [
+                "Response"
+            ]
+        },
+        "Reset_Marking": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "Response": {
+                    "type": "object",
+                    "properties": {
+                        "Message": {
+                            "type": "string",
+                            "minLength": 1
+                        },
+                        "Success": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "Message",
+                        "Success"
+                    ]
+                }
+            },
+            "required": [
+                "Response"
+            ]
+        },
+        "Reopen_marking": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "message": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "status": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "message",
+                "status"
+            ]
+        },
+        "Download_exam_file_name": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "Response": {
+                    "type": "object",
+                    "properties": {
+                        "Message": {
+                            "type": "string",
+                            "minLength": 1
+                        },
+                        "Success": {
+                            "type": "number"
+                        },
+                        "filename": {
+                            "type": "string",
+                            "minLength": 1
+                        }
+                    },
+                    "required": [
+                        "Message",
+                        "Success",
+                        "filename"
+                    ]
+                }
+            },
+            "required": [
+                "Response"
+            ]
+        }
+    }
+}

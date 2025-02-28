@@ -1,0 +1,1279 @@
+{
+    "createmcq": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "QuestionID": {
+                        "type": "string"
+                    },
+                    "showMsg": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "QuestionID",
+                    "showMsg"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "editmcq": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "QuestionID": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "QuestionID"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "approve": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "checkout": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "fetchCreateQuestionPage": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "schemaDetails": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "properties": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "type"
+                                ]
+                            },
+                            "bank": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    },
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "properties": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    },
+                                                    "name": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "properties"
+                                        ]
+                                    },
+                                    "options_arr": {
+                                        "type": "array",
+                                        "items": [
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "items",
+                                    "options_arr"
+                                ]
+                            },
+                            "title": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "type"
+                                ]
+                            },
+                            "description": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "type"
+                                ]
+                            },
+                            "text": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "type"
+                                ]
+                            },
+                            "image": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    },
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "properties": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    },
+                                                    "name": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "properties"
+                                        ]
+                                    },
+                                    "options_arr": {
+                                        "type": "array",
+                                        "items": [
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "items",
+                                    "options_arr"
+                                ]
+                            },
+                            "tags": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    },
+                                    "tags_arr": {
+                                        "type": "array",
+                                        "items": [
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "flag": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "editor": {
+                                                        "type": "string"
+                                                    },
+                                                    "value": {
+                                                        "type": "string"
+                                                    },
+                                                    "control_id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "control_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "option_arr": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name",
+                                                    "flag",
+                                                    "editor",
+                                                    "value",
+                                                    "control_id",
+                                                    "control_name",
+                                                    "option_arr"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "flag": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "editor": {
+                                                        "type": "string"
+                                                    },
+                                                    "value": {
+                                                        "type": "string"
+                                                    },
+                                                    "control_id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "control_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "option_arr": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "name",
+                                                    "flag",
+                                                    "editor",
+                                                    "value",
+                                                    "control_id",
+                                                    "control_name",
+                                                    "option_arr"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "tags_arr"
+                                ]
+                            },
+                            "typea": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    },
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "properties": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "listname": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    },
+                                                    "markvalue": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    },
+                                                    "markscontrol": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    },
+                                                    "questiontext": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    },
+                                                    "checked": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type"
+                                                        ]
+                                                    }
+                                                },
+                                                "required": [
+                                                    "listname",
+                                                    "markvalue",
+                                                    "markscontrol",
+                                                    "questiontext",
+                                                    "checked"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "properties"
+                                        ]
+                                    },
+                                    "question_arr": {
+                                        "type": "array",
+                                        "items": [
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "listname": {
+                                                        "type": "string"
+                                                    },
+                                                    "markvalue": {
+                                                        "type": "string"
+                                                    },
+                                                    "markscontrol": {
+                                                        "type": "string"
+                                                    },
+                                                    "questiontext": {
+                                                        "type": "string"
+                                                    },
+                                                    "checked": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "listname",
+                                                    "markvalue",
+                                                    "markscontrol",
+                                                    "questiontext",
+                                                    "checked"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "listname": {
+                                                        "type": "string"
+                                                    },
+                                                    "markvalue": {
+                                                        "type": "string"
+                                                    },
+                                                    "markscontrol": {
+                                                        "type": "string"
+                                                    },
+                                                    "questiontext": {
+                                                        "type": "string"
+                                                    },
+                                                    "checked": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "listname",
+                                                    "markvalue",
+                                                    "markscontrol",
+                                                    "questiontext",
+                                                    "checked"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "listname": {
+                                                        "type": "string"
+                                                    },
+                                                    "markvalue": {
+                                                        "type": "string"
+                                                    },
+                                                    "markscontrol": {
+                                                        "type": "string"
+                                                    },
+                                                    "questiontext": {
+                                                        "type": "string"
+                                                    },
+                                                    "checked": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "listname",
+                                                    "markvalue",
+                                                    "markscontrol",
+                                                    "questiontext",
+                                                    "checked"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "listname": {
+                                                        "type": "string"
+                                                    },
+                                                    "markvalue": {
+                                                        "type": "string"
+                                                    },
+                                                    "markscontrol": {
+                                                        "type": "string"
+                                                    },
+                                                    "questiontext": {
+                                                        "type": "string"
+                                                    },
+                                                    "checked": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "listname",
+                                                    "markvalue",
+                                                    "markscontrol",
+                                                    "questiontext",
+                                                    "checked"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "listname": {
+                                                        "type": "string"
+                                                    },
+                                                    "markvalue": {
+                                                        "type": "string"
+                                                    },
+                                                    "markscontrol": {
+                                                        "type": "string"
+                                                    },
+                                                    "questiontext": {
+                                                        "type": "string"
+                                                    },
+                                                    "checked": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "listname",
+                                                    "markvalue",
+                                                    "markscontrol",
+                                                    "questiontext",
+                                                    "checked"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "items",
+                                    "question_arr"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "bank",
+                            "title",
+                            "description",
+                            "text",
+                            "image",
+                            "tags",
+                            "typea"
+                        ]
+                    },
+                    "required": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "string"
+                            }
+                        ]
+                    }
+                },
+                "required": [
+                    "type",
+                    "properties",
+                    "required"
+                ]
+            },
+            "form": {
+                "type": "array",
+                "items": [
+                    {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string"
+                            },
+                            "title": {
+                                "type": "string"
+                            },
+                            "labelHtmlClass": {
+                                "type": "string"
+                            },
+                            "expandable": {
+                                "type": "boolean"
+                            },
+                            "expanded": {
+                                "type": "boolean"
+                            },
+                            "items": {
+                                "type": "array",
+                                "items": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "labelHtmlClass",
+                                            "fieldHtmlClass",
+                                            "key",
+                                            "key_ref",
+                                            "title",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "value"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "singleSelect": {
+                                                "type": "boolean"
+                                            },
+                                            "required": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "integer"
+                                            }
+                                        },
+                                        "required": [
+                                            "labelHtmlClass",
+                                            "fieldHtmlClass",
+                                            "key",
+                                            "key_ref",
+                                            "title",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "singleSelect",
+                                            "required",
+                                            "value"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "required": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "labelHtmlClass",
+                                            "fieldHtmlClass",
+                                            "key",
+                                            "key_ref",
+                                            "title",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "required",
+                                            "value"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "isForJsonSchema": {
+                                                "type": "boolean"
+                                            }
+                                        },
+                                        "required": [
+                                            "labelHtmlClass",
+                                            "fieldHtmlClass",
+                                            "value",
+                                            "key",
+                                            "key_ref",
+                                            "title",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "isForJsonSchema"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "required": {
+                                                "type": "string"
+                                            },
+                                            "isForJsonSchema": {
+                                                "type": "boolean"
+                                            }
+                                        },
+                                        "required": [
+                                            "labelHtmlClass",
+                                            "fieldHtmlClass",
+                                            "value",
+                                            "key",
+                                            "key_ref",
+                                            "title",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "required",
+                                            "isForJsonSchema"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "button_label": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "key",
+                                            "key_ref",
+                                            "title",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "value",
+                                            "button_label"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "isForJsonSchema": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "title",
+                            "labelHtmlClass",
+                            "expandable",
+                            "expanded",
+                            "items",
+                            "isForJsonSchema"
+                        ]
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string"
+                            },
+                            "title": {
+                                "type": "string"
+                            },
+                            "labelHtmlClass": {
+                                "type": "string"
+                            },
+                            "expandable": {
+                                "type": "boolean"
+                            },
+                            "expanded": {
+                                "type": "boolean"
+                            },
+                            "items": {
+                                "type": "array",
+                                "items": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "candidate_view_flag": {
+                                                "type": "integer"
+                                            },
+                                            "dynamic_distractors": {
+                                                "type": "boolean"
+                                            },
+                                            "default_distractors_count": {
+                                                "type": "integer"
+                                            }
+                                        },
+                                        "required": [
+                                            "key",
+                                            "labelHtmlClass",
+                                            "title",
+                                            "fieldHtmlClass",
+                                            "type",
+                                            "candidate_view_flag",
+                                            "dynamic_distractors",
+                                            "default_distractors_count"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "isForJsonSchema": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "title",
+                            "labelHtmlClass",
+                            "expandable",
+                            "expanded",
+                            "items",
+                            "isForJsonSchema"
+                        ]
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string"
+                            },
+                            "title": {
+                                "type": "string"
+                            },
+                            "labelHtmlClass": {
+                                "type": "string"
+                            },
+                            "expandable": {
+                                "type": "boolean"
+                            },
+                            "expanded": {
+                                "type": "boolean"
+                            },
+                            "isForJsonSchema": {
+                                "type": "boolean"
+                            },
+                            "items": {
+                                "type": "array",
+                                "items": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "tagmode": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "key",
+                                            "key_ref",
+                                            "labelHtmlClass",
+                                            "title",
+                                            "fieldHtmlClass",
+                                            "type",
+                                            "value",
+                                            "tagmode"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "key": {
+                                                "type": "string"
+                                            },
+                                            "key_ref": {
+                                                "type": "string"
+                                            },
+                                            "labelHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "fieldHtmlClass": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "tagmode": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "key",
+                                            "key_ref",
+                                            "labelHtmlClass",
+                                            "title",
+                                            "fieldHtmlClass",
+                                            "type",
+                                            "value",
+                                            "tagmode"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "title",
+                            "labelHtmlClass",
+                            "expandable",
+                            "expanded",
+                            "isForJsonSchema",
+                            "items"
+                        ]
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string"
+                            },
+                            "fieldHtmlClass": {
+                                "type": "string"
+                            },
+                            "title": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "fieldHtmlClass",
+                            "title"
+                        ]
+                    }
+                ]
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "text": {
+                        "type": "string"
+                    },
+                    "tags": {
+                        "type": "string"
+                    },
+                    "typea": {
+                        "type": "string"
+                    },
+                    "bank": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "type",
+                    "title",
+                    "description",
+                    "text",
+                    "tags",
+                    "typea",
+                    "bank"
+                ]
+            }
+        },
+        "required": [
+            "schemaDetails",
+            "form",
+            "data"
+        ]
+    }
+}

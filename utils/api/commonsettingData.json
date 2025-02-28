@@ -1,0 +1,677 @@
+{
+    "responseDuration": 30000,
+    "Admin_add_user_address_save": {
+        "body": {
+            "street": "chennai",
+            "city_id": "cheennai",
+            "state_id": "tamilnadu",
+            "zipcode": "767676",
+            "language_id": "[{\"id\":1,\"name\":\"Afar\"}]",
+            "timezone_id": "[{\"id\":1,\"name\":\"(UTC-12:00) International Date Line West\"}]"
+        },
+        "empty_state_idbody": {
+            "street": "chennai",
+            "city_id": "cheennai",
+            "state_id": "",
+            "zipcode": "767676",
+            "language_id": "[{\"id\":1,\"name\":\"Afar\"}]",
+            "timezone_id": "[{\"id\":1,\"name\":\"(UTC-12:00) International Date Line West\"}]"
+        }
+    },
+    "Admin_user_setting_save": {
+        "body": {
+            "authentication_method": "[{\"id\":1,\"name\":\"Simple\"}]",
+            "status": true,
+            "specialties": ""
+        }
+    },
+    "Admin_user_role_save": {
+        "body": {
+            "banks_and_roles": "[{\"product_id\":1,\"name\":\"QMS\",\"value\":[{\"bank_id\":3,\"bank_name\":\"Test Bank update\",\"role_id\":0,\"role\":[{\"role_id\":1,\"role_name\":\"Administrator\",\"product_id\":1,\"checked\":true},{\"role_id\":2,\"role_name\":\"Examiner\",\"product_id\":1,\"checked\":false},{\"role_id\":3,\"role_name\":\"Reviewer\",\"product_id\":1,\"checked\":false},{\"role_id\":4,\"role_name\":\"Approver\",\"product_id\":1,\"checked\":false},{\"role_id\":11,\"role_name\":\"Data Analyst\",\"product_id\":1,\"checked\":false},{\"role_id\":12,\"role_name\":\"Lead SME\",\"product_id\":1,\"checked\":false},{\"role_id\":14,\"role_name\":\"Test Role\",\"product_id\":1,\"checked\":false},{\"role_id\":19,\"role_name\":\"Dummy role Test\",\"product_id\":1,\"checked\":false},{\"role_id\":20,\"role_name\":\"SME\",\"product_id\":1,\"checked\":false},{\"role_id\":21,\"role_name\":\"ERG\",\"product_id\":1,\"checked\":false},{\"role_id\":22,\"role_name\":\"test\",\"product_id\":1,\"checked\":false},{\"role_id\":26,\"role_name\":\"globaltest\",\"product_id\":1,\"checked\":false},{\"role_id\":27,\"role_name\":\"globaltest1\",\"product_id\":1,\"checked\":false},{\"role_id\":34,\"role_name\":\"tests (1)\",\"product_id\":1,\"checked\":false},{\"role_id\":49,\"role_name\":\"test role\",\"product_id\":1,\"checked\":false},{\"role_id\":64,\"role_name\":\"Role Test 27\",\"product_id\":1,\"checked\":false}]}],\"role_arr\":[{\"role_id\":1,\"role_name\":\"Administrator\",\"product_id\":1,\"checked\":false},{\"role_id\":2,\"role_name\":\"Examiner\",\"product_id\":1,\"checked\":false},{\"role_id\":3,\"role_name\":\"Reviewer\",\"product_id\":1,\"checked\":false},{\"role_id\":4,\"role_name\":\"Approver\",\"product_id\":1,\"checked\":false},{\"role_id\":11,\"role_name\":\"Data Analyst\",\"product_id\":1,\"checked\":false},{\"role_id\":12,\"role_name\":\"Lead SME\",\"product_id\":1,\"checked\":false},{\"role_id\":14,\"role_name\":\"Test Role\",\"product_id\":1,\"checked\":false},{\"role_id\":19,\"role_name\":\"Dummy role Test\",\"product_id\":1,\"checked\":false},{\"role_id\":20,\"role_name\":\"SME\",\"product_id\":1,\"checked\":false},{\"role_id\":21,\"role_name\":\"ERG\",\"product_id\":1,\"checked\":false},{\"role_id\":22,\"role_name\":\"test\",\"product_id\":1,\"checked\":false},{\"role_id\":26,\"role_name\":\"globaltest\",\"product_id\":1,\"checked\":false},{\"role_id\":27,\"role_name\":\"globaltest1\",\"product_id\":1,\"checked\":false},{\"role_id\":34,\"role_name\":\"tests (1)\",\"product_id\":1,\"checked\":false},{\"role_id\":49,\"role_name\":\"test role\",\"product_id\":1,\"checked\":false},{\"role_id\":64,\"role_name\":\"Role Test 27\",\"product_id\":1,\"checked\":false}],\"enableMultiRole\":false},{\"product_id\":2,\"name\":\"OE\",\"value\":[{\"bank_id\":3,\"bank_name\":\"Test Bank update\",\"role_id\":0,\"role\":[{\"role_id\":5,\"role_name\":\"Exam Administrator\",\"product_id\":2,\"checked\":true},{\"role_id\":6,\"role_name\":\"Committee Chair\",\"product_id\":2,\"checked\":false},{\"role_id\":7,\"role_name\":\"Subject Leader\",\"product_id\":2,\"checked\":false},{\"role_id\":8,\"role_name\":\"Invigilator\",\"product_id\":2,\"checked\":false},{\"role_id\":9,\"role_name\":\"Candidate\",\"product_id\":2,\"checked\":false},{\"role_id\":10,\"role_name\":\"Marker\",\"product_id\":2,\"checked\":false},{\"role_id\":32,\"role_name\":\"Markers\",\"product_id\":2,\"checked\":false},{\"role_id\":65,\"role_name\":\"Role Test QA 27\",\"product_id\":2,\"checked\":false}]}],\"role_arr\":[{\"role_id\":5,\"role_name\":\"Exam Administrator\",\"product_id\":2,\"checked\":false},{\"role_id\":6,\"role_name\":\"Committee Chair\",\"product_id\":2,\"checked\":false},{\"role_id\":7,\"role_name\":\"Subject Leader\",\"product_id\":2,\"checked\":false},{\"role_id\":8,\"role_name\":\"Invigilator\",\"product_id\":2,\"checked\":false},{\"role_id\":9,\"role_name\":\"Candidate\",\"product_id\":2,\"checked\":false},{\"role_id\":10,\"role_name\":\"Marker\",\"product_id\":2,\"checked\":false},{\"role_id\":32,\"role_name\":\"Markers\",\"product_id\":2,\"checked\":false},{\"role_id\":65,\"role_name\":\"Role Test QA 27\",\"product_id\":2,\"checked\":false}],\"enableMultiRole\":false}]"
+        }
+    },
+    "Admin_user_address_edit_update_body": {
+        "street": "chennai",
+        "city_id": "cheennai",
+        "state_id": "tamilnadu",
+        "country_id": "india",
+        "zipcode": "767676",
+        "language_id": "[{\"id\":1,\"name\":\"Afar\"}]",
+        "timezone_id": "[{\"id\":1,\"name\":\"(UTC-12:00) International Date Line West\"}]"
+    },
+    "Admin_user_setting_edit_update": {
+        "authentication_method": "[{\"id\":1,\"name\":\"Simple\"}]",
+        "status": true
+    },
+    "Admin_user_role_edit_update": {
+        "banks_and_roles": "[{\"product_id\":1,\"name\":\"QMS\",\"value\":[{\"bank_id\":3,\"bank_name\":\"Test Bank update\",\"role_id\":1,\"role\":[{\"role_id\":1,\"role_name\":\"Administrator\",\"product_id\":1,\"checked\":true},{\"role_id\":2,\"role_name\":\"Examiner\",\"product_id\":1,\"checked\":false},{\"role_id\":3,\"role_name\":\"Reviewer\",\"product_id\":1,\"checked\":false},{\"role_id\":4,\"role_name\":\"Approver\",\"product_id\":1,\"checked\":false},{\"role_id\":11,\"role_name\":\"Data Analyst\",\"product_id\":1,\"checked\":false},{\"role_id\":12,\"role_name\":\"Lead SME\",\"product_id\":1,\"checked\":false},{\"role_id\":14,\"role_name\":\"Test Role\",\"product_id\":1,\"checked\":false},{\"role_id\":19,\"role_name\":\"Dummy role Test\",\"product_id\":1,\"checked\":false},{\"role_id\":20,\"role_name\":\"SME\",\"product_id\":1,\"checked\":false},{\"role_id\":21,\"role_name\":\"ERG\",\"product_id\":1,\"checked\":false},{\"role_id\":22,\"role_name\":\"test\",\"product_id\":1,\"checked\":false},{\"role_id\":26,\"role_name\":\"globaltest\",\"product_id\":1,\"checked\":false},{\"role_id\":27,\"role_name\":\"globaltest1\",\"product_id\":1,\"checked\":false},{\"role_id\":34,\"role_name\":\"tests (1)\",\"product_id\":1,\"checked\":false},{\"role_id\":49,\"role_name\":\"test role\",\"product_id\":1,\"checked\":false},{\"role_id\":64,\"role_name\":\"Role Test 27\",\"product_id\":1,\"checked\":false}]},{\"bank_id\":40,\"bank_name\":\"Admin 123\",\"role_id\":1,\"role\":[{\"role_id\":1,\"role_name\":\"Administrator\",\"product_id\":1,\"checked\":true},{\"role_id\":2,\"role_name\":\"Examiner\",\"product_id\":1,\"checked\":false},{\"role_id\":3,\"role_name\":\"Reviewer\",\"product_id\":1,\"checked\":false},{\"role_id\":4,\"role_name\":\"Approver\",\"product_id\":1,\"checked\":false},{\"role_id\":11,\"role_name\":\"Data Analyst\",\"product_id\":1,\"checked\":false},{\"role_id\":12,\"role_name\":\"Lead SME\",\"product_id\":1,\"checked\":false},{\"role_id\":14,\"role_name\":\"Test Role\",\"product_id\":1,\"checked\":false},{\"role_id\":19,\"role_name\":\"Dummy role Test\",\"product_id\":1,\"checked\":false},{\"role_id\":20,\"role_name\":\"SME\",\"product_id\":1,\"checked\":false},{\"role_id\":21,\"role_name\":\"ERG\",\"product_id\":1,\"checked\":false},{\"role_id\":22,\"role_name\":\"test\",\"product_id\":1,\"checked\":false},{\"role_id\":26,\"role_name\":\"globaltest\",\"product_id\":1,\"checked\":false},{\"role_id\":27,\"role_name\":\"globaltest1\",\"product_id\":1,\"checked\":false},{\"role_id\":34,\"role_name\":\"tests (1)\",\"product_id\":1,\"checked\":false},{\"role_id\":49,\"role_name\":\"test role\",\"product_id\":1,\"checked\":false},{\"role_id\":64,\"role_name\":\"Role Test 27\",\"product_id\":1,\"checked\":false}]}],\"role_arr\":[{\"role_id\":1,\"role_name\":\"Administrator\",\"product_id\":1,\"checked\":false},{\"role_id\":2,\"role_name\":\"Examiner\",\"product_id\":1,\"checked\":false},{\"role_id\":3,\"role_name\":\"Reviewer\",\"product_id\":1,\"checked\":false},{\"role_id\":4,\"role_name\":\"Approver\",\"product_id\":1,\"checked\":false},{\"role_id\":11,\"role_name\":\"Data Analyst\",\"product_id\":1,\"checked\":false},{\"role_id\":12,\"role_name\":\"Lead SME\",\"product_id\":1,\"checked\":false},{\"role_id\":14,\"role_name\":\"Test Role\",\"product_id\":1,\"checked\":false},{\"role_id\":19,\"role_name\":\"Dummy role Test\",\"product_id\":1,\"checked\":false},{\"role_id\":20,\"role_name\":\"SME\",\"product_id\":1,\"checked\":false},{\"role_id\":21,\"role_name\":\"ERG\",\"product_id\":1,\"checked\":false},{\"role_id\":22,\"role_name\":\"test\",\"product_id\":1,\"checked\":false},{\"role_id\":26,\"role_name\":\"globaltest\",\"product_id\":1,\"checked\":false},{\"role_id\":27,\"role_name\":\"globaltest1\",\"product_id\":1,\"checked\":false},{\"role_id\":34,\"role_name\":\"tests (1)\",\"product_id\":1,\"checked\":false},{\"role_id\":49,\"role_name\":\"test role\",\"product_id\":1,\"checked\":false},{\"role_id\":64,\"role_name\":\"Role Test 27\",\"product_id\":1,\"checked\":false}],\"enableMultiRole\":false},{\"product_id\":2,\"name\":\"OE\",\"value\":[{\"bank_id\":3,\"bank_name\":\"Test Bank update\",\"role_id\":5,\"role\":[{\"role_id\":5,\"role_name\":\"Exam Administrator\",\"product_id\":2,\"checked\":true},{\"role_id\":6,\"role_name\":\"Committee Chair\",\"product_id\":2,\"checked\":false},{\"role_id\":7,\"role_name\":\"Subject Leader\",\"product_id\":2,\"checked\":false},{\"role_id\":8,\"role_name\":\"Invigilator\",\"product_id\":2,\"checked\":false},{\"role_id\":9,\"role_name\":\"Candidate\",\"product_id\":2,\"checked\":false},{\"role_id\":10,\"role_name\":\"Marker\",\"product_id\":2,\"checked\":false},{\"role_id\":32,\"role_name\":\"Markers\",\"product_id\":2,\"checked\":false},{\"role_id\":65,\"role_name\":\"Role Test QA 27\",\"product_id\":2,\"checked\":false}]},{\"bank_id\":40,\"bank_name\":\"Admin 123\",\"role_id\":5,\"role\":[{\"role_id\":5,\"role_name\":\"Exam Administrator\",\"product_id\":2,\"checked\":true},{\"role_id\":6,\"role_name\":\"Committee Chair\",\"product_id\":2,\"checked\":false},{\"role_id\":7,\"role_name\":\"Subject Leader\",\"product_id\":2,\"checked\":false},{\"role_id\":8,\"role_name\":\"Invigilator\",\"product_id\":2,\"checked\":false},{\"role_id\":9,\"role_name\":\"Candidate\",\"product_id\":2,\"checked\":false},{\"role_id\":10,\"role_name\":\"Marker\",\"product_id\":2,\"checked\":false},{\"role_id\":32,\"role_name\":\"Markers\",\"product_id\":2,\"checked\":false},{\"role_id\":65,\"role_name\":\"Role Test QA 27\",\"product_id\":2,\"checked\":false}]}],\"role_arr\":[{\"role_id\":5,\"role_name\":\"Exam Administrator\",\"product_id\":2,\"checked\":false},{\"role_id\":6,\"role_name\":\"Committee Chair\",\"product_id\":2,\"checked\":false},{\"role_id\":7,\"role_name\":\"Subject Leader\",\"product_id\":2,\"checked\":false},{\"role_id\":8,\"role_name\":\"Invigilator\",\"product_id\":2,\"checked\":false},{\"role_id\":9,\"role_name\":\"Candidate\",\"product_id\":2,\"checked\":false},{\"role_id\":10,\"role_name\":\"Marker\",\"product_id\":2,\"checked\":false},{\"role_id\":32,\"role_name\":\"Markers\",\"product_id\":2,\"checked\":false},{\"role_id\":65,\"role_name\":\"Role Test QA 27\",\"product_id\":2,\"checked\":false}],\"enableMultiRole\":false}]"
+    },
+    "Admin_users_search": {
+        "freeText": [
+            "admin"
+        ]
+    },
+    "Admin_Save_logout_settings": {
+        "logout_value": "120"
+    },
+    "Admin_save_rate_limit_login": {
+        "max_attempts": "3",
+        "decay_minutes": "1"
+    },
+    "Admin_role_list_pagination": {
+        "freeText": [
+            ""
+        ],
+        "pagination": 10
+    },
+    "Admin_roles_list_column_hiden": {
+        "freeText": [
+            ""
+        ],
+        "showColumns": [
+            "CREATED BY",
+            "MODIFIED BY",
+            "mappings"
+        ]
+    },
+    "Admin_securitycontrol_save": [
+        {
+            "Question": {
+                "roles": [
+                    {
+                        "name": "Question",
+                        "privileges": [
+                            {
+                                "id": 1,
+                                "name": "Create",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "Search",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Edit",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Preview",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 5,
+                                "name": "Duplicate",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 6,
+                                "name": "Delete",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 7,
+                                "name": "Print",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 8,
+                                "name": "Export",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 9,
+                                "name": "Archive",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 53,
+                                "name": "Checkout",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 56,
+                                "name": "View",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 64,
+                                "name": "Download Question Paper",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 65,
+                                "name": "Submit & Review",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 67,
+                                "name": "Submit & Approve",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 142,
+                                "name": "Public Filter",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 130,
+                                "name": "Preview (WEB)",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 153,
+                                "name": "View (My Item)",
+                                "is_show": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Images",
+                        "privileges": [
+                            {
+                                "id": 16,
+                                "name": "Upload",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 17,
+                                "name": "Search",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 18,
+                                "name": "Edit",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 20,
+                                "name": "Delete",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 62,
+                                "name": "View",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 143,
+                                "name": "Public Filter",
+                                "is_show": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exam",
+                        "privileges": [
+                            {
+                                "id": 22,
+                                "name": "Create",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 23,
+                                "name": "Search",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 24,
+                                "name": "Edit",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 26,
+                                "name": "Duplicate",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 28,
+                                "name": "Print",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 49,
+                                "name": "Export",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 51,
+                                "name": "Delete",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 30,
+                                "name": "Archive",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 52,
+                                "name": "Checkout",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 59,
+                                "name": "View",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 25,
+                                "name": "Preview (WEB)",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 63,
+                                "name": "Preview (PDF)",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 66,
+                                "name": "Submit & Review",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 68,
+                                "name": "Submit & Approve",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 131,
+                                "name": "Save Draft",
+                                "is_show": 1
+                            },
+                            {
+                                "id": 144,
+                                "name": "Public Filter",
+                                "is_show": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blueprint",
+                        "privileges": [
+                            {
+                                "id": 31,
+                                "name": "Create",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 32,
+                                "name": "Search",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 33,
+                                "name": "Edit",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 34,
+                                "name": "Preview",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 35,
+                                "name": "Duplicate",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 36,
+                                "name": "Delete",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 37,
+                                "name": "Print",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 38,
+                                "name": "Export",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 39,
+                                "name": "Archive",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 57,
+                                "name": "View",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 58,
+                                "name": "Unlock",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 145,
+                                "name": "Public Filter",
+                                "is_show": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reports",
+                        "privileges": [
+                            {
+                                "id": 81,
+                                "name": "Create",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 82,
+                                "name": "Search",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 83,
+                                "name": "Edit",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 84,
+                                "name": "Preview",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 85,
+                                "name": "Duplicate",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 86,
+                                "name": "Delete",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 87,
+                                "name": "Print",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 88,
+                                "name": "Export",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 89,
+                                "name": "Archive",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 90,
+                                "name": "View",
+                                "is_show": 0
+                            },
+                            {
+                                "id": 146,
+                                "name": "Public Filter",
+                                "is_show": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "Admin_user_activities_filter_search": {
+        "filterArray": [
+            {
+                "filterId": "User Name",
+                "operator": "eq",
+                "displayText": "User Name <span><strong>is equal to</strong></span> ",
+                "filterValue1": "\t SAAS QA marker",
+                "filterValue2": "",
+                "operation": ""
+            }
+        ],
+        "freeText": []
+    },
+    "Admin_email_templates_filter_search": {
+        "filterArray": [
+            {
+                "filterId": "Template Name",
+                "operator": "eq",
+                "displayText": "Template Name <span>is equal to</span> ",
+                "filterValue1": "User Welcome mail",
+                "filterValue2": "",
+                "operation": ""
+            }
+        ],
+        "freeText": []
+    },
+    "Admin_email_templates_list_field_column_hide": {
+        "freeText": [],
+        "showColumns": [
+            "STATUS",
+            "mappings"
+        ]
+    },
+    "Admin_email_template_update": {
+        "name": "Bulk Schedule mail",
+        "subject": "Bulk Schedule",
+        "content": "<p>Dear $name!</p>\n                <p>We have successfully imported your schedule(s) from the excel file.</p>\n                <p>Thank you</p>",
+        "status": true,
+        "event": "[{\"id\":32,\"name\":\"Bulk Schedule\"}]"
+    },
+    "Admin_dashboards_filter_search": {
+        "filterArray": [
+            {
+                "filterId": "Dashboard",
+                "operator": "eq",
+                "displayText": "Dashboard <span>is equal to</span> ",
+                "filterValue1": "QMS Dashboard",
+                "filterValue2": "",
+                "operation": ""
+            }
+        ],
+        "freeText": [
+            ""
+        ]
+    },
+    "Admin_dashboards_list_field_column_hide": {
+        "freeText": [
+            ""
+        ],
+        "showColumns": [
+            "MODIFIED BY",
+            "CREATED BY",
+            "mappings"
+        ]
+    },
+    "Admin_chat_settings_save": {
+        "enable_chat": true,
+        "select_chat": [
+            {
+                "id": "ZOHO",
+                "name": "ZOHO"
+            }
+        ],
+        "script": "test"
+    },
+    "Admin_training_centres_field_column_show_and_hide": {
+        "freeText": [
+            ""
+        ],
+        "showColumns": [
+            "MODIFIED BY",
+            "mappings"
+        ]
+    },
+    "Admin_training_centres_pagination": {
+        "freeText": [
+            ""
+        ],
+        "pagination": 10
+    },
+    "Admin_training_sites_field_cloumn_hide_and_show": {
+        "freeText": [
+            ""
+        ],
+        "showColumns": [
+            "MODIFIED BY",
+            "mappings"
+        ]
+    },
+    "Admin_training_sites_pagination": {
+        "freeText": [
+            ""
+        ]
+    },
+    "Admin_grade_scale_list": {
+        "freeText": [],
+        "showColumns": []
+    },
+    "Admin_grade_scale_field_column_hide": {
+        "filterArray": [],
+        "freeText": [
+            ""
+        ],
+        "pagination": null,
+        "showColumns": [
+            "LAST DATE UPDATED",
+            "mappings",
+            "tags"
+        ]
+    },
+    "Admin_grade_scale_pagination": {
+        "filterArray": [],
+        "freeText": [
+            ""
+        ],
+        "pagination": 5,
+        "showColumns": null
+    },
+    "Common_Setting_Authentication_Simple_Authentication": {
+        "data": {
+            "simple_authentication": true
+        },
+        "type": "simple_authentication"
+    },
+    "Comman_Setting_Authentication_Multi_factor_Auth": {
+        "data": {
+            "multifactor_authentication": true,
+            "communication_gateway": "2",
+            "communication_type": 1
+        },
+        "type": "multifactor_authentication"
+    },
+    "Comman_Setting_Authentication_Azure_saml": {
+        "data": {
+            "azure_saml_authentication": true,
+            "base_url": "/common/v3/authenticationservice/ssoAzureResponse/",
+            "entity_id": "/",
+            "idp_url": "https://sts.windows.net/5b43c50d-aebf-44da-af0e-9cf38028d18c/",
+            "metadata_saml_idp": "a:8:{s:8:\"entityid\";s:61:\"https://sts.windows.net/5b43c50d-aebf-44da-af0e-9cf38028d18c/\";s:8:\"contacts\";a:0:{}s:12:\"metadata-set\";s:17:\"saml20-idp-remote\";s:19:\"SingleSignOnService\";a:2:{i:0;a:2:{s:7:\"Binding\";s:50:\"urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\";s:8:\"Location\";s:76:\"https://login.microsoftonline.com/5b43c50d-aebf-44da-af0e-9cf38028d18c/saml2\";}i:1;a:2:{s:7:\"Binding\";s:46:\"urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\";s:8:\"Location\";s:76:\"https://login.microsoftonline.com/5b43c50d-aebf-44da-af0e-9cf38028d18c/saml2\";}}s:19:\"SingleLogoutService\";a:1:{i:0;a:2:{s:7:\"Binding\";s:50:\"urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\";s:8:\"Location\";s:76:\"https://login.microsoftonline.com/5b43c50d-aebf-44da-af0e-9cf38028d18c/saml2\";}}s:25:\"ArtifactResolutionService\";a:0:{}s:13:\"NameIDFormats\";a:0:{}s:4:\"keys\";a:1:{i:0;a:4:{s:10:\"encryption\";b:0;s:7:\"signing\";b:1;s:4:\"type\";s:15:\"X509Certificate\";s:15:\"X509Certificate\";s:1008:\"MIIC8DCCAdigAwIBAgIQU6Jh+CLThZFI68jj5+c3MTANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMzA2MjIxMTAwMTZaFw0yNjA2MjIxMTAwMTZaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoORm+oW1P2Fvi2dr4XbGYtqi3PXFH2dZvUZRI5X5805B6k5H27NyUg/4ZRAfjrxtawmJZMrUmAWYjAiGTQVCUTAlPBFGWnNP8po1XLhQJCq5Wv56wG86avOx/c64FhhdpDZ1q7fAXvDdd+kCVHj+lGnF8BFNx4tMGvP+aq8OKB5Vfpkxs3Ff0zb53s1scilEZS+QPKWKzdaKGLO9Vr9Bw2xZWm+DYtYrCZH2YS8yHaIdWHZEEubAGnP6Hy6qyy3A+NIumG+z9U57L+jrEAj0ILi2M1kleZpPzUNn3kNWwgE/7BOMFXyX7Rinx3GwZ97q8r6+3Py2SdKJY8f2OL6ilQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAldKSz5TiSbcIj4ouLUgY+YS0n/L+1mDCKvvAWVoWdFMeC4EFwXFMlTtTxQitxaU8M8knP2O5uCznYBgoWaeT6VkFPBkqeL4ASBct5Bp7Rk0wfIRYzHnlW5xPT87ryYyHV0VmH4cndm+5P1jkFxvq/vHGCSaTdaTcdkan4Lxs+xQu3qxK9SgQXmE43umzeKYVrTC4KQrivy0iJkoYpf/WB/ctva1h0Apd0t9mo3Uidy7B29xrN7e03n1+nEerx6+U/Akcka7prUUMlCK9zpYtkWLVyKXH4w80n2j8htgzLTV9qt7p9EkUgbJQTdCcY1XL5VaNlLLm7wZLoltd94EAt\";}}}",
+            "login_url": "/common/v3/authenticationservice/ssoAzureResponse/",
+            "logout_url": "https://login.microsoftonline.com/5b43c50d-aebf-44da-af0e-9cf38028d18c/saml2"
+        },
+        "type": "azure_saml_authentication"
+    },
+    "Comman_Setting_Authentication_Azure_Open": {
+        "data": {
+            "azure_openid_authentication": false,
+            "base_url": "dfdggg",
+            "redirect_url": "fdsf",
+            "client_id": "sdfsd",
+            "tenant_id": "fsdf",
+            "secret_id": "dsfdsf"
+        },
+        "type": "azure_openid_authentication"
+    },
+    "Comman_Setting_Authentication_portal_sso_auth": {
+        "data": {
+            "portal_sso_authentication": true,
+            "wp_portal_url": "portal url",
+            "not_authorized_message": "sdfgewr",
+            "portal_notification": true,
+            "portal_notification_url": "sdger"
+        },
+        "type": "portal_sso_authentication"
+    },
+    "Comman_Setting_Grade_Settings_Grade_Book_Grade_Create": {
+        "exams": [],
+        "gradeBookId": 0
+    },
+    "Comman_Setting_Grade_Settings_Grade_Book_Grade_Create_get_ExamSession": {
+        "examId": [
+            {
+                "id": 3,
+                "name": "Proctoring Exam 1"
+            }
+        ]
+    },
+    "Comman_Setting_Grade_Settings_Grade_Book_Grade_Create_grade_book_create_form_exam_select": {
+        "exams": [
+            {
+                "id": 3,
+                "name": "Proctoring Exam 1"
+            }
+        ]
+    },
+    "Comman_Setting_Grade_Settings_Grade_Book_Grade_Create_grade_book_create_form_session_select": {
+        "exams": [
+            {
+                "id": 3,
+                "name": "Proctoring Exam 1"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 9,
+                "name": "Exam Main Session (Proctoring Exam 1)",
+                "exam_id": 3
+            }
+        ],
+        "gradeAggregation": [
+            {
+                "id": 1,
+                "name": "Average"
+            }
+        ],
+        "gradeScale": [
+            {
+                "id": 2,
+                "name": "Rating Scale"
+            }
+        ]
+    },
+    "grade_book_list": {
+        "freeText": [],
+        "showColumns": []
+    },
+    "grade_book_filter_search ": {
+        "filterArray": [
+            {
+                "filterId": "Name",
+                "operator": "like",
+                "displayText": "Name <span>is like</span> ",
+                "filterValue1": "happy",
+                "filterValue2": "",
+                "operation": ""
+            }
+        ],
+        "freeText": [],
+        "pagination": 25,
+        "showColumns": null
+    },
+    "grade_book_field_column_hide": {
+        "filterArray": [],
+        "freeText": [],
+        "pagination": null,
+        "showColumns": [
+            "LAST DATE UPDATED",
+            "mappings",
+            "tags"
+        ]
+    },
+    "grade_book_pagination": {
+        "filterArray": [],
+        "freeText": [],
+        "pagination": 10,
+        "showColumns": null
+    }
+}

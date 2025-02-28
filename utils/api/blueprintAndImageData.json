@@ -1,0 +1,344 @@
+{
+    "responseDuration": 30000,
+    "BluePrintCreate": {
+        "blueprintcreate_body": {
+            "title": "test",
+            "bank": 1,
+            "cartdetails": [
+                {
+                    "id": "",
+                    "cart_name": "cart1",
+                    "cart_items": "",
+                    "no_required": 2,
+                    "filterArr": "",
+                    "update_cart": true
+                },
+                {
+                    "id": "",
+                    "cart_name": "cart2",
+                    "cart_items": "",
+                    "no_required": 2,
+                    "filterArr": "",
+                    "update_cart": true
+                }
+            ]
+        },
+        "blueprint_cart_questions_filter_search": {
+            "allCartQuestions": [],
+            "cartdetails": {
+                "id": 2657,
+                "cart_name": "cart1",
+                "cart_items": 0,
+                "no_required": 2,
+                "cart_lock": 0,
+                "cart_slug": 3689,
+                "cart_qst_lock": 0,
+                "cartinfo": "",
+                "cart_user_id": "2638",
+                "show_all_status": true,
+                "unapproved_questions_count": 0,
+                "cart_lock_permission": 1,
+                "questions": [],
+                "total_marks": 0,
+                "global_cart_lock": 0,
+                "filterArr": {
+                    "filterArray": {
+                        "filterName": "",
+                        "filterType": "private",
+                        "filterPage": "showcartblueprint"
+                    },
+                    "customFilter": [
+                        {
+                            "filterId": "Type",
+                            "operator": "eq",
+                            "displayText": "Type <span><strong>is equal to</strong></span> ",
+                            "filterValue1": "MCQ",
+                            "filterValue2": "select6",
+                            "operation": "",
+                            "flag": 1
+                        }
+                    ]
+                },
+                "update_cart": true
+            },
+            "filterArray": [
+                {
+                    "filterId": "Type",
+                    "operator": "eq",
+                    "displayText": "Type <span><strong>is equal to</strong></span>  ",
+                    "filterValue1": "MCQ",
+                    "filterValue2": "select6",
+                    "operation": "",
+                    "flag": 1
+                },
+                {
+                    "filterId": "Status",
+                    "operator": "eq",
+                    "displayText": "Status <span> is equal to</span> ",
+                    "filterValue1": "Approved",
+                    "filterValue2": "select6",
+                    "filterValue3": "",
+                    "operation": "AND"
+                }
+            ]
+        },
+        "blueprint_cart_questions_select_addcart": {
+            "allCartQuestions": [
+                "1057"
+            ],
+            "cartdetails": {
+                "id": 2657,
+                "cart_name": "cart1",
+                "cart_items": 0,
+                "no_required": 2,
+                "cart_lock": 0,
+                "cart_slug": 3689,
+                "cart_qst_lock": 0,
+                "cartinfo": "",
+                "cart_user_id": "2638",
+                "show_all_status": true,
+                "unapproved_questions_count": 0,
+                "cart_lock_permission": 1,
+                "questions": [
+                    "2238",
+                    "2235"
+                ],
+                "total_marks": 0,
+                "global_cart_lock": 0,
+                "filterArr": {
+                    "filterArray": {
+                        "filterName": "",
+                        "filterType": "private",
+                        "filterPage": "showcartblueprint"
+                    },
+                    "customFilter": [
+                        {
+                            "filterId": "Type",
+                            "operator": "eq",
+                            "displayText": "Type <span><strong>is equal to</strong></span> ",
+                            "filterValue1": "MCQ",
+                            "filterValue2": "select6",
+                            "operation": "",
+                            "flag": 1
+                        }
+                    ]
+                },
+                "update_cart": true
+            },
+            "filterArray": [
+                {
+                    "filterId": "Type",
+                    "operator": "eq",
+                    "displayText": "Type <span><strong>is equal to</strong></span>  ",
+                    "filterValue1": "MCQ",
+                    "filterValue2": "select6",
+                    "operation": "",
+                    "flag": 1
+                },
+                {
+                    "filterId": "Status",
+                    "operator": "eq",
+                    "displayText": "Status <span> is equal to</span> ",
+                    "filterValue1": "Approved",
+                    "filterValue2": "select6",
+                    "filterValue3": "",
+                    "operation": "AND"
+                }
+            ]
+        },
+        "blueprint_cart_question_save": {
+            "title": "test",
+            "bank": 1,
+            "cartdetails": [
+                {
+                    "id": 742,
+                    "cart_name": "cart1",
+                    "cart_items": 0,
+                    "no_required": 2,
+                    "cart_lock": 0,
+                    "cart_slug": 9300,
+                    "cart_qst_lock": 0,
+                    "cartinfo": "",
+                    "cart_user_id": "28",
+                    "show_all_status": true,
+                    "unapproved_questions_count": 0,
+                    "cart_lock_permission": 0,
+                    "questions": [
+                        1057
+                    ],
+                    "total_marks": 0,
+                    "global_cart_lock": 0
+                },
+                {
+                    "id": 743,
+                    "cart_name": "cart2",
+                    "cart_items": 0,
+                    "no_required": 2,
+                    "cart_lock": 0,
+                    "cart_slug": 8476,
+                    "cart_qst_lock": 0,
+                    "cartinfo": "",
+                    "cart_user_id": "28",
+                    "show_all_status": true,
+                    "unapproved_questions_count": 0,
+                    "cart_lock_permission": 0,
+                    "questions": [],
+                    "total_marks": 0,
+                    "global_cart_lock": 0
+                }
+            ],
+            "status": 0
+        },
+        "blueprint_cart_questions_edit": {
+            "cartdetails": [
+                {
+                    "id": 742,
+                    "cart_name": "cart1",
+                    "cart_items": 0,
+                    "no_required": 2,
+                    "cart_lock": 0,
+                    "cart_slug": 9300,
+                    "cart_qst_lock": 0,
+                    "cartinfo": "",
+                    "cart_user_id": "28",
+                    "show_all_status": true,
+                    "unapproved_questions_count": 0,
+                    "cart_lock_permission": 0,
+                    "questions": [
+                        1057
+                    ],
+                    "total_marks": 0,
+                    "global_cart_lock": 0
+                },
+                {
+                    "id": 743,
+                    "cart_name": "cart2",
+                    "cart_items": 0,
+                    "no_required": 2,
+                    "cart_lock": 0,
+                    "cart_slug": 8476,
+                    "cart_qst_lock": 0,
+                    "cartinfo": "",
+                    "cart_user_id": "28",
+                    "show_all_status": true,
+                    "unapproved_questions_count": 0,
+                    "cart_lock_permission": 0,
+                    "questions": [],
+                    "total_marks": 0,
+                    "global_cart_lock": 0
+                }
+            ],
+            "filterArray": [],
+            "cartTitle": "View Cart"
+        },
+        "blueprint_cart_edit_autofill": {
+            "allCartQuestions": [],
+            "cartdetails": {
+                "id": 742,
+                "cart_name": "cart1",
+                "cart_items": 0,
+                "no_required": 2,
+                "cart_lock": 0,
+                "cart_slug": 9300,
+                "cart_qst_lock": 0,
+                "cartinfo": "",
+                "cart_user_id": "28",
+                "show_all_status": true,
+                "unapproved_questions_count": 0,
+                "cart_lock_permission": 0,
+                "questions": [],
+                "total_marks": 0,
+                "global_cart_lock": 0
+            },
+            "filterArray": []
+        },
+        "blueprints_list_search": {
+            "freeText": [
+                "test"
+            ]
+        },
+        "blueprints_list_filter_search": {
+            "filterArray": [
+                {
+                    "filterId": "Status",
+                    "operator": "eq",
+                    "displayText": "Status <span><strong>is equal to</strong></span> ",
+                    "filterValue1": "Approved",
+                    "filterValue2": "select6",
+                    "filterValue3": "",
+                    "operation": ""
+                }
+            ]
+        },
+        "blueprints_list_show_column": {
+            "showColumns": [
+                "TITLE",
+                "mappings",
+                "tags"
+            ]
+        }
+    },
+    "Image_Service": {
+        "bank_select_image_list": {
+            "banks": [
+                "1"
+            ]
+        },
+        "image_filter_search": {
+            "banks": [],
+            "filterArray": [
+                {
+                    "filterId": "Name",
+                    "operator": "like",
+                    "displayText": "Name <span>is like</span> ",
+                    "filterValue1": "image",
+                    "filterValue2": "",
+                    "filterValue3": "",
+                    "operation": ""
+                }
+            ]
+        },
+        "tags_select_tagtype_show": {
+            "tagtype": {
+                "label": "Test tag",
+                "id": 1,
+                "tag_type_id": 1,
+                "tagstatus": true,
+                "tagVal": "",
+                "editor": "",
+                "control_id": 1,
+                "control_name": "input",
+                "status": "updated"
+            },
+            "keyword": ""
+        },
+        "image_list_search": {
+            "freeText": [
+                "data"
+            ],
+            "banks": [
+                1
+            ]
+        },
+        "question_image_gallery_list": {
+            "banks": [
+                1
+            ],
+            "showImages": true
+        },
+        "image_upload_tags_to_tagtype": {
+            "tagtype": {
+                "label": "Test",
+                "id": 10,
+                "tag_type_id": 10,
+                "tagstatus": true,
+                "tagVal": "",
+                "editor": "",
+                "control_id": 1,
+                "control_name": "input",
+                "status": "updated"
+            },
+            "keyword": ""
+        }
+    }
+}

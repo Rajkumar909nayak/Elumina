@@ -1,0 +1,408 @@
+{
+    "create_Blueprint": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "BlueprintID": {
+                        "type": "string"
+                    },
+                    "showMsg": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "BlueprintID",
+                    "showMsg"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "Blueprint_workflow_save": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "Title": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "Title"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "blueprint_cart_lock": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "blueprint_workflow_save": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "Title": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "Title"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "blueprint_list_custom_filter_save_public_or_privet": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "filter_id": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "filter_id"
+                ]
+            }
+        }
+    },
+    "blueprint_unlock": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "upload_image_name": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "ImageDetails": {
+                        "type": "object",
+                        "properties": {
+                            "filename": {
+                                "type": "string"
+                            },
+                            "destination_path": {
+                                "type": "string"
+                            },
+                            "extension": {
+                                "type": "string"
+                            },
+                            "thumbnail": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            },
+                            "size": {
+                                "type": "string"
+                            },
+                            "dimension": {
+                                "type": "string"
+                            },
+                            "path": {
+                                "type": "null"
+                            },
+                            "deletedStatus": {
+                                "type": "boolean"
+                            },
+                            "service": {
+                                "type": "null"
+                            },
+                            "component": {
+                                "type": "null"
+                            },
+                            "showPreview": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "filename",
+                            "destination_path",
+                            "extension",
+                            "thumbnail",
+                            "type",
+                            "size",
+                            "dimension",
+                            "path",
+                            "deletedStatus",
+                            "service",
+                            "component",
+                            "showPreview"
+                        ]
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "ImageDetails"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "image_custome_filter_save_public_or_privet": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "filter_id": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "filter_id"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "image_edit_save": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Updated_at": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Updated_at",
+                    "Success"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "question_upload_image_name": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "Message": {
+                        "type": "string"
+                    },
+                    "Success": {
+                        "type": "integer"
+                    },
+                    "ImageDetails": {
+                        "type": "object",
+                        "properties": {
+                            "filename": {
+                                "type": "string"
+                            },
+                            "destination_path": {
+                                "type": "string"
+                            },
+                            "extension": {
+                                "type": "string"
+                            },
+                            "thumbnail": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            },
+                            "size": {
+                                "type": "string"
+                            },
+                            "dimension": {
+                                "type": "string"
+                            },
+                            "path": {
+                                "type": "null"
+                            },
+                            "deletedStatus": {
+                                "type": "boolean"
+                            },
+                            "service": {
+                                "type": "null"
+                            },
+                            "component": {
+                                "type": "null"
+                            },
+                            "showPreview": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "filename",
+                            "destination_path",
+                            "extension",
+                            "thumbnail",
+                            "type",
+                            "size",
+                            "dimension",
+                            "path",
+                            "deletedStatus",
+                            "service",
+                            "component",
+                            "showPreview"
+                        ]
+                    }
+                },
+                "required": [
+                    "Message",
+                    "Success",
+                    "ImageDetails"
+                ]
+            }
+        },
+        "required": [
+            "Response"
+        ]
+    },
+    "image_upload_tags_to_tagtype": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "items": [
+            {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer"
+                    },
+                    "tag": {
+                        "type": "string"
+                    },
+                    "tag_type_id": {
+                        "type": "integer"
+                    },
+                    "control": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "id",
+                    "tag",
+                    "tag_type_id",
+                    "control"
+                ]
+            }
+        ]
+    }
+}

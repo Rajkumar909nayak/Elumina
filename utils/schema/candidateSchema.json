@@ -1,0 +1,1131 @@
+{
+    "beforeExamStartStatus": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "remainingTime": {
+                        "type": "string"
+                    },
+                    "examState": {
+                        "type": "string"
+                    },
+                    "manualauth": {
+                        "type": "integer"
+                    },
+                    "startexam": {
+                        "type": "integer"
+                    },
+                    "examcompleted": {
+                        "type": "integer"
+                    },
+                    "seconds": {
+                        "type": "integer"
+                    },
+                    "sectionType": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "remainingTime",
+                    "examState",
+                    "manualauth",
+                    "startexam",
+                    "examcompleted",
+                    "seconds",
+                    "sectionType"
+                ]
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "afterExamStartStatus": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "remainingTime": {
+                        "type": "string"
+                    },
+                    "examState": {
+                        "type": "string"
+                    },
+                    "manualauth": {
+                        "type": "integer"
+                    },
+                    "startexam": {
+                        "type": "integer"
+                    },
+                    "examcompleted": {
+                        "type": "integer"
+                    },
+                    "seconds": {
+                        "type": "integer"
+                    },
+                    "sectionType": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "remainingTime",
+                    "examState",
+                    "manualauth",
+                    "startexam",
+                    "examcompleted",
+                    "seconds",
+                    "sectionType"
+                ]
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "candidateInfo": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "clientId": {
+                        "type": "string"
+                    },
+                    "clientIdLabel": {
+                        "type": "string"
+                    },
+                    "username": {
+                        "type": "string"
+                    },
+                    "firstName": {
+                        "type": "string"
+                    },
+                    "lastName": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "clientId",
+                    "clientIdLabel",
+                    "username",
+                    "firstName",
+                    "lastName"
+                ]
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "candidateEvents": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "response": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "response"
+        ]
+    },
+    "candidateInstruction": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "examName": {
+                        "type": "string"
+                    },
+                    "examDescription": {
+                        "type": "string"
+                    },
+                    "candidateId": {
+                        "type": "string"
+                    },
+                    "clientId": {
+                        "type": "string"
+                    },
+                    "info": {
+                        "type": "string"
+                    },
+                    "showPassword": {
+                        "type": "boolean"
+                    },
+                    "captcha": {
+                        "type": "boolean"
+                    },
+                    "popup": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    },
+                                    "displayName": {
+                                        "type": "string"
+                                    },
+                                    "sectionId": {
+                                        "type": "string"
+                                    },
+                                    "title": {
+                                        "type": "string"
+                                    },
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "button": {
+                                        "type": "array",
+                                        "items": [
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "displayName"
+                                                ]
+                                            },
+                                            {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "id",
+                                                    "displayName"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "id",
+                                    "displayName",
+                                    "sectionId",
+                                    "title",
+                                    "description",
+                                    "button"
+                                ]
+                            }
+                        ]
+                    },
+                    "practiceExam": {
+                        "type": "boolean"
+                    },
+                    "navigation": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "pageName": {
+                                        "type": "string"
+                                    },
+                                    "pageRoute": {
+                                        "type": "string"
+                                    },
+                                    "sectionType": {
+                                        "type": "string"
+                                    },
+                                    "sectionId": {
+                                        "type": "integer"
+                                    },
+                                    "questionId": {
+                                        "type": "null"
+                                    },
+                                    "questionStatus": {
+                                        "type": "null"
+                                    },
+                                    "displayName": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "pageName",
+                                    "pageRoute",
+                                    "sectionType",
+                                    "sectionId",
+                                    "questionId",
+                                    "questionStatus",
+                                    "displayName"
+                                ]
+                            }
+                        ]
+                    },
+                    "utcTime": {
+                        "type": "string"
+                    },
+                    "tools": {
+                        "type": "object",
+                        "properties": {
+                            "others": {
+                                "type": "array",
+                                "items": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "mode": {
+                                                "type": "string"
+                                            },
+                                            "perQuestion": {
+                                                "type": "string"
+                                            },
+                                            "active": {
+                                                "type": "boolean"
+                                            }
+                                        },
+                                        "required": [
+                                            "id",
+                                            "mode",
+                                            "perQuestion",
+                                            "active"
+                                        ]
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "mode": {
+                                                "type": "string"
+                                            },
+                                            "perQuestion": {
+                                                "type": "string"
+                                            },
+                                            "active": {
+                                                "type": "boolean"
+                                            }
+                                        },
+                                        "required": [
+                                            "id",
+                                            "mode",
+                                            "perQuestion",
+                                            "active"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "highlighter": {
+                                "type": "array",
+                                "items": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "mode": {
+                                                "type": "string"
+                                            },
+                                            "perQuestion": {
+                                                "type": "string"
+                                            },
+                                            "active": {
+                                                "type": "boolean"
+                                            }
+                                        },
+                                        "required": [
+                                            "id",
+                                            "mode",
+                                            "perQuestion",
+                                            "active"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "required": [
+                            "others",
+                            "highlighter"
+                        ]
+                    },
+                    "allQuestionCompulsory": {
+                        "type": "boolean"
+                    },
+                    "disableNavigation": {
+                        "type": "boolean"
+                    },
+                    "eachQuestionMandatory": {
+                        "type": "boolean"
+                    },
+                    "duration": {
+                        "type": "object",
+                        "properties": {
+                            "exam": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "exam"
+                        ]
+                    },
+                    "invigilatorInfo": {
+                        "type": "object",
+                        "properties": {
+                            "candidateName": {
+                                "type": "string"
+                            },
+                            "examName": {
+                                "type": "string"
+                            },
+                            "sessionName": {
+                                "type": "string"
+                            },
+                            "sessionStartDate": {
+                                "type": "string"
+                            },
+                            "sessionEndDate": {
+                                "type": "string"
+                            },
+                            "examId": {
+                                "type": "integer"
+                            },
+                            "sessionId": {
+                                "type": "integer"
+                            },
+                            "candidateId": {
+                                "type": "string"
+                            },
+                            "userId": {
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "candidateName",
+                            "examName",
+                            "sessionName",
+                            "sessionStartDate",
+                            "sessionEndDate",
+                            "examId",
+                            "sessionId",
+                            "candidateId",
+                            "userId"
+                        ]
+                    },
+                    "offlineInfo": {
+                        "type": "object",
+                        "properties": {
+                            "hotKeys": {
+                                "type": "string"
+                            },
+                            "offlinePassword": {
+                                "type": "string"
+                            },
+                            "sections": {
+                                "type": "array",
+                                "items": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "integer"
+                                            },
+                                            "exam_id": {
+                                                "type": "integer"
+                                            },
+                                            "version_id": {
+                                                "type": "integer"
+                                            },
+                                            "revision_id": {
+                                                "type": "integer"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "description": {
+                                                "type": "string"
+                                            },
+                                            "duration_hrs": {
+                                                "type": "integer"
+                                            },
+                                            "duration_minutes": {
+                                                "type": "integer"
+                                            },
+                                            "pass_section": {
+                                                "type": "string"
+                                            },
+                                            "pass_percent": {
+                                                "type": "integer"
+                                            },
+                                            "updated_by": {
+                                                "type": "integer"
+                                            },
+                                            "created_at": {
+                                                "type": "string"
+                                            },
+                                            "updated_at": {
+                                                "type": "string"
+                                            },
+                                            "exam_session_id": {
+                                                "type": "integer"
+                                            },
+                                            "section_type": {
+                                                "type": "string"
+                                            },
+                                            "remaining_time": {
+                                                "type": "string"
+                                            },
+                                            "module_type_id": {
+                                                "type": "integer"
+                                            },
+                                            "section_identifier": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "id",
+                                            "exam_id",
+                                            "version_id",
+                                            "revision_id",
+                                            "name",
+                                            "description",
+                                            "duration_hrs",
+                                            "duration_minutes",
+                                            "pass_section",
+                                            "pass_percent",
+                                            "updated_by",
+                                            "created_at",
+                                            "updated_at",
+                                            "exam_session_id",
+                                            "section_type",
+                                            "remaining_time",
+                                            "module_type_id",
+                                            "section_identifier"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "required": [
+                            "hotKeys",
+                            "offlinePassword",
+                            "sections"
+                        ]
+                    },
+                    "disableForceReload": {
+                        "type": "integer"
+                    },
+                    "showDeactivatedKeysPopup": {
+                        "type": "integer"
+                    },
+                    "deactivatedKeys": {
+                        "type": "array",
+                        "items": {}
+                    },
+                    "deactivatedCtrlshiftKeys": {
+                        "type": "array",
+                        "items": {}
+                    },
+                    "deactivatedCtrlKeys": {
+                        "type": "array",
+                        "items": {}
+                    },
+                    "dashboardBtn": {
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "examName",
+                    "examDescription",
+                    "candidateId",
+                    "clientId",
+                    "info",
+                    "showPassword",
+                    "captcha",
+                    "popup",
+                    "practiceExam",
+                    "navigation",
+                    "utcTime",
+                    "tools",
+                    "allQuestionCompulsory",
+                    "disableNavigation",
+                    "eachQuestionMandatory",
+                    "duration",
+                    "invigilatorInfo",
+                    "offlineInfo",
+                    "disableForceReload",
+                    "showDeactivatedKeysPopup",
+                    "deactivatedKeys",
+                    "deactivatedCtrlshiftKeys",
+                    "deactivatedCtrlKeys",
+                    "dashboardBtn"
+                ]
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "downloadExamContentPage": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "heading": {
+                        "type": "string"
+                    },
+                    "content": {
+                        "type": "string"
+                    },
+                    "attachments": {
+                        "type": "array",
+                        "items": {}
+                    },
+                    "sectionType": {
+                        "type": "string"
+                    },
+                    "navigation": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "pageId": {
+                                        "type": "integer"
+                                    },
+                                    "pageName": {
+                                        "type": "string"
+                                    },
+                                    "pageRoute": {
+                                        "type": "string"
+                                    },
+                                    "sectionType": {
+                                        "type": "string"
+                                    },
+                                    "sectionId": {
+                                        "type": "integer"
+                                    },
+                                    "questionId": {
+                                        "type": "integer"
+                                    },
+                                    "displayName": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "pageId",
+                                    "pageName",
+                                    "pageRoute",
+                                    "sectionType",
+                                    "sectionId",
+                                    "questionId",
+                                    "displayName"
+                                ]
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "pageId": {
+                                        "type": "integer"
+                                    },
+                                    "pageName": {
+                                        "type": "string"
+                                    },
+                                    "pageRoute": {
+                                        "type": "string"
+                                    },
+                                    "sectionType": {
+                                        "type": "string"
+                                    },
+                                    "sectionId": {
+                                        "type": "integer"
+                                    },
+                                    "questionId": {
+                                        "type": "integer"
+                                    },
+                                    "displayName": {
+                                        "type": "string"
+                                    },
+                                    "afterSubmit": {
+                                        "type": "string"
+                                    },
+                                    "lastPage": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "required": [
+                                    "pageId",
+                                    "pageName",
+                                    "pageRoute",
+                                    "sectionType",
+                                    "sectionId",
+                                    "questionId",
+                                    "displayName",
+                                    "afterSubmit",
+                                    "lastPage"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "required": [
+                    "heading",
+                    "content",
+                    "attachments",
+                    "sectionType",
+                    "navigation"
+                ]
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "candidateExamPageDownload": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "object",
+                "properties": {
+                    "navigation": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "pageId": {
+                                        "type": "integer"
+                                    },
+                                    "pageName": {
+                                        "type": "string"
+                                    },
+                                    "pageRoute": {
+                                        "type": "string"
+                                    },
+                                    "sectionType": {
+                                        "type": "string"
+                                    },
+                                    "sectionId": {
+                                        "type": "integer"
+                                    },
+                                    "questionId": {
+                                        "type": "null"
+                                    },
+                                    "questionStatus": {
+                                        "type": "null"
+                                    },
+                                    "displayName": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "pageId",
+                                    "pageName",
+                                    "pageRoute",
+                                    "sectionType",
+                                    "sectionId",
+                                    "questionId",
+                                    "questionStatus",
+                                    "displayName"
+                                ]
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "pageId": {
+                                        "type": "integer"
+                                    },
+                                    "pageName": {
+                                        "type": "string"
+                                    },
+                                    "pageRoute": {
+                                        "type": "string"
+                                    },
+                                    "sectionType": {
+                                        "type": "string"
+                                    },
+                                    "sectionId": {
+                                        "type": "integer"
+                                    },
+                                    "questionId": {
+                                        "type": "null"
+                                    },
+                                    "questionStatus": {
+                                        "type": "null"
+                                    },
+                                    "displayName": {
+                                        "type": "string"
+                                    },
+                                    "afterSubmit": {
+                                        "type": "string"
+                                    },
+                                    "lastPage": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "required": [
+                                    "pageId",
+                                    "pageName",
+                                    "pageRoute",
+                                    "sectionType",
+                                    "sectionId",
+                                    "questionId",
+                                    "questionStatus",
+                                    "displayName",
+                                    "afterSubmit",
+                                    "lastPage"
+                                ]
+                            }
+                        ]
+                    },
+                    "questions": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "key": {
+                                        "type": "string"
+                                    },
+                                    "questionInfo": {
+                                        "type": "object",
+                                        "properties": {
+                                            "examId": {
+                                                "type": "string"
+                                            },
+                                            "examStatus": {
+                                                "type": "string"
+                                            },
+                                            "lastQuestionId": {
+                                                "type": "null"
+                                            },
+                                            "questionHeader": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "queId": {
+                                                        "type": "integer"
+                                                    },
+                                                    "queNo": {
+                                                        "type": "integer"
+                                                    },
+                                                    "queText": {
+                                                        "type": "string"
+                                                    },
+                                                    "Type": {
+                                                        "type": "string"
+                                                    },
+                                                    "Topic": {
+                                                        "type": "string"
+                                                    },
+                                                    "topicLabel": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "integer"
+                                                    },
+                                                    "flagged": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "showTopic": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "showMarks": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "totalMarks": {
+                                                        "type": "string"
+                                                    },
+                                                    "totalMarkTxt": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "queId",
+                                                    "queNo",
+                                                    "queText",
+                                                    "Type",
+                                                    "Topic",
+                                                    "topicLabel",
+                                                    "status",
+                                                    "flagged",
+                                                    "showTopic",
+                                                    "showMarks",
+                                                    "totalMarks",
+                                                    "totalMarkTxt"
+                                                ]
+                                            },
+                                            "generalSection": {
+                                                "type": "array",
+                                                "items": [
+                                                    {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "name": {
+                                                                "type": "string"
+                                                            },
+                                                            "text": {
+                                                                "type": "string"
+                                                            },
+                                                            "slug": {
+                                                                "type": "string"
+                                                            },
+                                                            "highlightedText": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "name",
+                                                            "text",
+                                                            "slug",
+                                                            "highlightedText"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            "practiceSection": {
+                                                "type": "array",
+                                                "items": {}
+                                            },
+                                            "referenceSection": {
+                                                "type": "array",
+                                                "items": {}
+                                            },
+                                            "mainSection": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "isExpandAccordion": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "data": {
+                                                        "type": "null"
+                                                    },
+                                                    "restoreData": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    },
+                                                    "image": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    },
+                                                    "dcm_image": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    },
+                                                    "file": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    },
+                                                    "dcmImg": {
+                                                        "type": "boolean"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "isExpandAccordion",
+                                                    "data",
+                                                    "restoreData",
+                                                    "image",
+                                                    "dcm_image",
+                                                    "file",
+                                                    "dcmImg"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "examId",
+                                            "examStatus",
+                                            "lastQuestionId",
+                                            "questionHeader",
+                                            "generalSection",
+                                            "practiceSection",
+                                            "referenceSection",
+                                            "mainSection"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "key",
+                                    "questionInfo"
+                                ]
+                            }
+                        ]
+                    },
+                    "sectionType": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "navigation",
+                    "questions",
+                    "sectionType"
+                ]
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "getAllNotes": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "array",
+                "items": {}
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "questionDownloadStatus": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "status",
+            "message"
+        ]
+    },
+    "candidateSaveNotes": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "saveHighlightNotes": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    },
+    "removeHighlight": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "integer"
+            },
+            "message": {
+                "type": "string"
+            },
+            "data": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "status",
+            "message",
+            "data"
+        ]
+    }
+}

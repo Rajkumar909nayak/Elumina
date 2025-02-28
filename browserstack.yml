@@ -1,0 +1,25 @@
+userName: rajakumars_oDe5C0
+accessKey: zzvLgS3z8oDHzukyPHCS
+framework: playwright
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows 
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows 
+    osVersion: 10
+    browserName: playwright-firefox
+    browserVersion: latest
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${DATE_TIME}
+projectName: BrowserStack Sample
+testObservability: true
+debug: true
+consoleLogs: info
+
+

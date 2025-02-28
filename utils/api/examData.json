@@ -1,0 +1,77 @@
+{
+    "exam_bank": [
+        {
+            "id": 1,
+            "name": "Practice Bank"
+        }
+    ],
+    "exam_name": "Automation Feasibility",
+    "exam_description": "<p>Elumina Test Exam </p>",
+    "practice_exam": true,
+    "examId": "012499",
+    "exam_start_date_time": [
+        {
+            "enableOption": 1,
+            "examDate": "",
+            "examHours": "",
+            "examMinutes": ""
+        }
+    ],
+    "exam_end_date_time": [
+        {
+            "enableOption": 1,
+            "examDate": "",
+            "examHours": "",
+            "examMinutes": ""
+        }
+    ],
+    "exam_venue": [
+        {
+            "id": 3,
+            "name": "Elumina Chennai",
+            "seats": 150,
+            "max_seats": 0
+        }
+    ],
+    "question_display_type": [
+        {
+            "id": 77,
+            "name": "Standard"
+        }
+    ],
+    "questions_per_page": [
+        {
+            "id": 8,
+            "name": "1"
+        }
+    ],
+    "image_View": "140",
+    "shuffle_within_questions": [
+        {
+            "id": 13,
+            "name": "No"
+        }
+    ],
+    "select_exam_tools": [
+        {
+            "id": 79,
+            "name": "Calculator"
+        },
+        {
+            "id": 80,
+            "name": "Notepad"
+        },
+        {
+            "id": 81,
+            "name": "Highlighter"
+        }
+    ],
+    "browser_security": [
+        {
+            "id": 57,
+            "name": "None",
+            "examKey": null
+        }
+    ],
+    "security_role": "[{\"id\":9,\"name\":\"Candidate\",\"network_security\":{\"id\":1,\"name\":\"Allow All\"},\"options\":{\"options_arr\":[{\"id\":1,\"name\":\"Allow All\",\"visibleStatus\":1},{\"id\":2,\"name\":\"Allow IP Address Range\",\"visibleStatus\":2},{\"id\":3,\"name\":\"Allow Specific IP Address\",\"visibleStatus\":3}],\"singleSelect\":true,\"title\":\"Candidate\",\"isForJsonSchema\":false,\"value\":1}}]"
+}

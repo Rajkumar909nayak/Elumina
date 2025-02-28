@@ -1,0 +1,9 @@
+{
+    "Exam_Srvice": {
+        "Exam_createType_blueprint_search": {
+            "freeText": [
+                "TestBlueprint"
+            ]
+        }
+    }
+}

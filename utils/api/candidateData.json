@@ -1,0 +1,41 @@
+{
+    "candidateLogin": {
+        "body": {
+            "username": "2012322",
+            "password": "eyJjdCI6InRjYTJqU0NWK3MzZEFGenNweFZrMUE9PSIsIml2IjoiNTMyZTk0YzA3M2JhM2JmMzE4YTlmOTQ0Y2M5ODk1NWQiLCJzIjoiNjcyMWY5MjI0NjM4OTAxNiJ9",
+            "captcha": ""
+        },
+        "invaliUsernamebody": {
+            "username": "2012322IGS",
+            "password": "eyJjdCI6IjYwUTNLY3FPN0dhTmlYK05EU0hNdnc9PSIsIml2IjoiZTViYWUwN2U2OWFlNWI4NmI5NDMzODI4MjRiYzIwNGUiLCJzIjoiMjljN2VhZDQwZWQ2NzcwOSJ9",
+            "captcha": ""
+        },
+        "emptyUseramebody": {
+            "username": "",
+            "password": "eyJjdCI6IjYwUTNLY3FPN0dhTmlYK05EU0hNdnc9PSIsIml2IjoiZTViYWUwN2U2OWFlNWI4NmI5NDMzODI4MjRiYzIwNGUiLCJzIjoiMjljN2VhZDQwZWQ2NzcwOSJ9",
+            "captcha": ""
+        },
+        "invalidPasswordbody": {
+            "username": "2012322",
+            "password": "eyJjdCI6IjYwUTNLY3FPN0dhTmlYK05EU0hNdnc9PSIsIml2IjoiZTViYWUwN2U2OWFlNWI4NmI5NDMzODI4MjRiYzIwNGUiLCJzIjoiMjljN2VhZDQwZWQ2NzcwOSJ9IGS",
+            "captcha": ""
+        },
+        "emptyPasswordbody": {
+            "username": "2012322",
+            "password": "",
+            "captcha": ""
+        },
+        "header": {
+            "accept": "application/json",
+            "webreferer": "https://sandbox-staging.assessappglobal.com.au/"
+        },
+        "invalidheader": {
+            "accept": "application/json",
+            "webreferer": "https://sandbox-staging.assessappglobal.com.aussszrdfxf/"
+        },
+        "emptyheader": {
+            "accept": "application/json",
+            "webreferer": " "
+        }
+    }
+}
